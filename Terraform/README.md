@@ -67,7 +67,7 @@ To use AWS provider and create AWS infrastructure we need to configure AWS CLI
 - Check version :  aws --version
 - Create User with permission and configure AWS Access Key and Secret Access Key
 
- Follow [this article](https://palak-bhawsar.hashnode.dev/launch-an-ec2-instance-using-terraform) to configure AWS CLI
+ 
 
 - Create any folder 
 ```
