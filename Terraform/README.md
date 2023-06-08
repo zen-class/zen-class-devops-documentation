@@ -243,8 +243,3 @@ depends_on = [
      ]
 ```
 
-#### Terraform hands-on
-
-- https://palak-bhawsar.hashnode.dev/launch-an-ec2-instance-using-terraform
-- https://palak-bhawsar.hashnode.dev/terraform-create-vpc-subnets-and-ec2-instances-in-multiple-availability-zones
-
