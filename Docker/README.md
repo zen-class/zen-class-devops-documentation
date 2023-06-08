@@ -14,7 +14,7 @@ Docker containers are easily portable because they do not have separate operatin
 
 Containers are lightweight and can startup very fast compared to that of virtual machines, 
 
-![IMG-2586 (2)](https://user-images.githubusercontent.com/69889600/211190070-2d0e6b26-2506-424d-b28a-5d1412619ce1.jpg)
+![containers-vs-virtual-machines](https://github.com/yasminjeelani/Devops_demo_apps/assets/36299748/6770545a-4b40-4e0c-af0f-2b598f4b6898)
 
 # Containers
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. Containers share the machine's OS system Kernel and therefore do not require an OS per application.
@@ -35,7 +35,7 @@ Docker Engine is an open source containerization technology for building and con
 Docker uses a client-server architecture. The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. 
 
 
-![IMG-2585 (2)](https://user-images.githubusercontent.com/69889600/211189964-520ae32a-30c7-4aa1-ad9d-418911c087c5.jpg)
+![DockerArchitecture_1](https://github.com/yasminjeelani/Devops_demo_apps/assets/36299748/19d22ff5-781d-4084-ac0e-068a624172ae)
 
 
 # Install Docker 
