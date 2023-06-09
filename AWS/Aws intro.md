@@ -1,5 +1,5 @@
 # Introduction to Virtualization and Cloud Computing
-
+<img src="https://raw.githubusercontent.com/Gitscooby/Images/main/virtualization-in-Cloud-Computing-1.webp">
 
 
 
@@ -30,7 +30,7 @@ processing, distributing or allowing access to large amounts of data.
 ## · Cloud Computing:
 On demand delivery of IT resources via the Interment, Instead of setting up Physical DCs, we can access Compute, Network, Storage on demand basis from Cloud providers. Use cases: Data backup, DRS, Email, Virtual Desktop, Software Development, Testing, Web Apps, Online Gaming, IoT, etc. Worldwide availability.
 
-
+<img src=""
 
 
 
