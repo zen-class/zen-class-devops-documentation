@@ -261,6 +261,8 @@ Ansible is an open source tool that you can use to automate your AWS deployments
 
 + **Agentless Architecture:** Ansible follows an agentless architecture, meaning that it doesn't require any software or agent to be installed on the managed nodes (systems being controlled by Ansible). Instead, it communicates with the nodes over SSH or WinRM (for Windows systems), utilizing the existing SSH or WinRM capabilities.
 
+<img src="https://github.com/Gitscooby/Images/blob/main/ansible-architecture%201.png">
+
 + **YAML-based Language:** Ansible playbooks, which are used to define automation tasks, are written in YAML (YAML Ain't Markup Language). YAML is a human-readable, structured data format that allows easy creation and modification of playbooks.
 
 + **Idempotent:** Ansible is idempotent, which means you can run the same playbook multiple times, and it will ensure that the desired state is achieved regardless of the current state. This property makes Ansible safe to use and prevents unintended side effects.
