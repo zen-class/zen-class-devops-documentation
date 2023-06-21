@@ -254,3 +254,31 @@ Ansible is an open source tool that you can use to automate your AWS deployments
 - Authentication: Use AWS access key and secret access key as either module arguments or environmental (ENV) variables (Export keys).
 - Write playbook
 - Execute it
+
+# Notes
+
++ **Automation:** Ansible is designed to automate repetitive tasks, allowing administrators and developers to focus on more important aspects of their work. It provides a declarative approach to automation, where you define the desired state of your systems, and Ansible takes care of bringing them to that state.
+
++ **Agentless Architecture:** Ansible follows an agentless architecture, meaning that it doesn't require any software or agent to be installed on the managed nodes (systems being controlled by Ansible). Instead, it communicates with the nodes over SSH or WinRM (for Windows systems), utilizing the existing SSH or WinRM capabilities.
+
++ **YAML-based Language:** Ansible playbooks, which are used to define automation tasks, are written in YAML (YAML Ain't Markup Language). YAML is a human-readable, structured data format that allows easy creation and modification of playbooks.
+
++ **Idempotent:** Ansible is idempotent, which means you can run the same playbook multiple times, and it will ensure that the desired state is achieved regardless of the current state. This property makes Ansible safe to use and prevents unintended side effects.
+
++ **Playbooks and Roles:** Ansible uses playbooks to define automation tasks. A playbook consists of a set of plays, where each play defines a set of tasks to be executed on a specific group of hosts. Playbooks are organized into roles, which provide a way to encapsulate and reuse automation logic across different playbooks.
+
++ **Inventory:** The inventory file in Ansible contains a list of hosts or groups of hosts that Ansible can manage. It allows you to organize your systems into meaningful groups and apply automation tasks selectively to specific hosts or groups.
+
++ **Modules:** Ansible provides a vast collection of modules that encapsulate specific system operations or tasks. Modules are executed on the managed nodes and perform actions such as installing packages, managing files, starting or stopping services, and more. Ansible ships with a large number of built-in modules, and you can also create custom modules to meet specific needs.
+
++ **Ad-Hoc Commands:** Apart from using playbooks, Ansible allows you to run ad-hoc commands directly from the command line. Ad-hoc commands are useful for performing quick, one-off tasks or executing simple commands across multiple hosts without the need for a playbook.
+
++ **Roles and Playbook Reusability:** Roles in Ansible enable you to package automation tasks, variables, and files into reusable components. By creating roles, you can structure your playbooks in a modular way, making them easier to understand, maintain, and share.
+
++ **Integration with Configuration Management Tools:** Ansible can be used in conjunction with other configuration management tools such as Puppet and Chef. It provides a bridge between various tools and allows you to leverage Ansible's automation capabilities alongside existing infrastructure management setups.
+
++ **Community and Ecosystem:** Ansible benefits from a large and active community, which contributes to its ecosystem by sharing playbooks, roles, and modules. The Ansible Galaxy, a public repository, provides access to a wide range of pre-built roles and playbooks that you can use as a starting point for your automation tasks.
+
++ **Extensibility and Customization:** Ansible offers multiple ways to extend and customize its functionality. You can create custom modules, plugins, and callbacks to integrate with external systems or implement specific requirements.
+
++ Integration with Continuous Integration/Continuous Deployment (CI/CD) Pip
