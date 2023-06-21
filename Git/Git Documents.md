@@ -181,3 +181,45 @@ git remote = shows repo's remotes
 git remote add <name> <url>
 git remote rm <name>
 
+
+# Git Overview
+
++ **Version Control System (VCS):** Git is a distributed version control system designed to track changes in source code and facilitate collaboration among multiple developers.
+
++ **Repository:** A repository, often referred to as a "repo," is a central location where Git stores all the files, history, and metadata of a project.
+
++ **Commits:** A commit is a snapshot of changes made to the repository. It represents a logical unit of work and includes a unique identifier, a commit message describing the changes, and a reference to the previous commit.
+
++ **Branches:** Git allows for the creation of multiple branches, which are independent lines of development. Branches enable developers to work on separate features or bug fixes without interfering with the main codebase.
+
++ **Master/Main Branch:** The main branch, traditionally named "master" or "main," serves as the default branch and typically represents the stable version of the code.
+
++ **Checkout:** The act of switching to a different branch is called checkout. It allows developers to work on a specific branch and access its code and history.
+
++ **Merge:** Merging combines the changes from one branch into another. It integrates the commits of a source branch into a target branch, incorporating all the changes seamlessly.
+
++ **Pull/Pull Request:** When working collaboratively, a developer can request changes from their branch to be merged into another branch through a pull request. This process allows for review and discussion before the merge takes place.
+
++ **Push:** Pushing refers to sending local commits to a remote repository, updating it with the latest changes. This step makes the changes accessible to other developers working on the same repository.
+
++ **Remote Repository:** A remote repository is a copy of the repository stored on a server or hosting platform. It allows for collaboration and synchronization among multiple developers.
+
++ **Clone:** Cloning is the process of creating a local copy of a remote repository. Developers can clone repositories to their local machines to work on the code and contribute to the project.
+
++ **Fetch:** Fetching retrieves the latest changes from a remote repository without integrating them into the local codebase. It updates the local repository's knowledge of the remote repository's state.
+
++ **Pull:** Pulling combines the fetch operation with automatically merging the changes into the current branch. It allows developers to update their local codebase with the latest changes from a remote repository.
+
++ **Conflict Resolution:** Conflicts may arise when merging or pulling changes if two or more developers modify the same part of a file. Git provides tools to help resolve these conflicts manually by choosing which changes to keep.
+
++ **Staging:** Git uses a staging area (also called the "index") to prepare files for commit. Developers can selectively stage specific changes or files, controlling which modifications will be included in the next commit.
+
++ **Ignoring Files:** Git allows developers to specify files or patterns to ignore, ensuring that certain files, such as compiled binaries or sensitive information, are not tracked or committed.
+
++ **Tagging:** Tags provide a way to mark specific points in Git history, such as release versions or important milestones. They allow for quick reference to specific commits, providing a more user-friendly identifier.
+
++ **Git Workflow Models:** Git supports various workflow models, including centralized, feature branch, and Gitflow. These models define how developers collaborate and manage branches and merges within a project.
+
++ **Git GUIs and Clients:** While Git can be used through the command line interface (CLI), there are also graphical user interfaces (GUIs) and dedicated clients available that provide a more visual and user-friendly interaction with Git.
+
++ **Git Hosting Platforms:** Git repositories can be hosted on various platforms like GitHub, GitLab, and Bitbucket.
