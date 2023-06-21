@@ -202,3 +202,33 @@ Verify the details that you have configured to launch an instance.
 
 <img src="https://github.com/Gitscooby/Images/blob/main/Ec2%20image%2014.png">
 
+
+**Virtual Servers:** EC2 allows you to provision virtual servers, known as instances, on-demand. These instances can be quickly created, modified, and terminated based on your requirements.
+
+**Instance Types:** EC2 provides a wide range of instance types optimized for different workloads. Each instance type offers varying combinations of CPU, memory, storage, and networking capacity to cater to specific application needs.
+
+**Operating System Support:** EC2 supports a variety of operating systems, including Amazon Linux, Windows Server, Ubuntu, CentOS, and more. This allows you to run your applications on your preferred operating system.
+
+**Scalability:** EC2 allows you to scale your infrastructure up or down based on demand. You can add or remove instances as needed, ensuring that your application can handle traffic spikes or changes in workload.
+
+**Elastic IP Addresses:** EC2 provides Elastic IP addresses, which are static IP addresses that can be associated with your instances. This allows you to maintain a consistent IP address even if you stop or start your instances.
+
+**Storage Options:** EC2 offers various storage options, including Amazon Elastic Block Store (EBS) for persistent block storage, Amazon S3 for object storage, and instance store for temporary storage directly attached to instances.
+
+**Security:** EC2 provides multiple security features, including virtual private clouds (VPCs), security groups, and network access control lists (ACLs), allowing you to control network traffic to and from your instances. You can also manage access to instances using AWS Identity and Access Management (IAM) roles.
+
+**Monitoring and Metrics:** EC2 offers detailed monitoring capabilities through Amazon CloudWatch. You can monitor CPU utilization, network traffic, disk I/O, and other metrics for your instances. CloudWatch provides real-time monitoring, automatic scaling, and the ability to set alarms based on specific thresholds.
+
+**Load Balancing:** EC2 integrates with Elastic Load Balancing, which distributes incoming traffic across multiple instances to improve availability and fault tolerance of your applications.
+
+**Auto Scaling:** EC2 Auto Scaling allows you to automatically scale your instances based on predefined policies. This ensures that your application can handle changes in demand without manual intervention.
+
+**Integration with Other AWS Services:** EC2 seamlessly integrates with other AWS services, such as Amazon RDS for managed databases, Amazon S3 for object storage, AWS Lambda for serverless computing, and more. This enables you to build complex and scalable architectures using a combination of services.
+
+**Pricing:** EC2 offers various pricing models, including on-demand instances, reserved instances, and spot instances. You can choose the most cost-effective option based on your application's requirements and usage patterns."
+
+
+
+
+
+
