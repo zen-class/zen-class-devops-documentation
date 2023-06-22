@@ -243,3 +243,129 @@ depends_on = [
      ]
 ```
 
+
+# Terraform variables
+
+
+**Variable Declaration:** Variables are declared in your Terraform configuration files using the variable block. For example:
+
+```
+hcl
+variable "region" {
+  type    = string
+  default = "us-west-1"
+}
+```
+
+In this example, a variable named "region" is defined with a type of string and a default value of "us-west-1". The type attribute defines the variable's data type, and
+
+the default attribute specifies a default value that will be used if no value is explicitly provided.
+
+**Variable Usage:** You can reference variables in your Terraform code using the interpolation syntax, ${var.<variable_name>}. For example:
+```
+hcl
+resource "aws_instance" "example" {
+  ami           = "ami-12345678"
+  instance_type = "t2.micro"
+  region        = var.region
+}
+```
+
+In this case, the value of the region variable is used to specify the region for the AWS instance resource.
+
+**Variable Input:** There are multiple ways to provide variable values when running Terraform commands:
+
+**Command-line flags:** You can use the -var or -var-file flags to set variable values. For example:
+```
+shell
+Copy code
+terraform apply -var="region=us-east-1"
+```
+
+**Variable files:** You can define a separate file (e.g., variables.tfvars) to store variable values. This file can be referenced using the -var-file flag.\
+
+for Example:
+```
+shell
+terraform apply -var-file="variables.tfvars"
+```
+**Environment variables:** You can set environment variables with the naming convention TF_VAR_<variable_name>.
+
+For Example:
+```
+shell
+export TF_VAR_region="us-west-2"
+terraform apply
+```
+**Interactive prompts:** If no value is provided through the above methods, Terraform will prompt you for the variable value when running a command.
+
+**Variable Interpolation:** Variables can be interpolated within other strings or expressions using the ${var.<variable_name>} syntax.
+
+For Example
+```
+hcl
+Copy code
+output "example_output" {
+  value = "The selected region is ${var.region}"
+}
+```
+In this case, the value of the region variable will be included in the output message.
+
+## Infrastructure as Code (IaC): 
+
+Terraform enables you to define your infrastructure using code rather than manual processes. This approach allows you to version, manage, and deploy your infrastructure in a reliable and repeatable manner.
+
+## Declarative Configuration Language:
+
+Terraform uses a declarative language called HashiCorp Configuration Language (HCL). With HCL, you define the desired state of your infrastructure resources, and Terraform takes care of creating or modifying resources to match that state.
+
+## Multi-Cloud and Hybrid Cloud Support: 
+
+Terraform supports multiple cloud providers, including Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and more. It also works with on-premises data centers, allowing you to manage hybrid cloud environments.
+
+## Resource Provisioning:
+
+With Terraform, you can provision various types of infrastructure resources, such as virtual machines, storage accounts, networks, load balancers, and databases. It abstracts the complexity of interacting with each cloud provider's APIs and provides a unified way to manage resources.
+
+## Dependency Management:
+
+Terraform allows you to define dependencies between resources. It automatically handles resource creation and deletion in the correct order based on their dependencies, ensuring consistent and reliable provisioning.
+
+## State Management: 
+
+Terraform maintains a state file that records the current state of your infrastructure. This state file tracks the resources created by Terraform and helps it understand the desired state during subsequent runs. The state file can be stored locally or remotely, facilitating collaboration and sharing among team members.
+
+## Plan and Apply Workflow:
+
+Terraform follows a two-step workflow. First, you create an execution plan that shows the changes Terraform will make to your infrastructure. Then, you apply the plan to make those changes. This approach allows you to preview the modifications before actually applying them.
+
+## Infrastructure as Versioned Code:
+
+Terraform treats infrastructure as versioned code. You can use version control systems like Git to track changes to your infrastructure configurations over time. This enables collaboration, auditability, and rollbacks to previous configurations if needed.
+
+## Community and Ecosystem:
+
+Terraform benefits from a vibrant community and an extensive ecosystem. You can leverage pre-built modules and providers contributed by the community, making it easier to manage complex infrastructure setups. The ecosystem also includes integrations with other DevOps tools, such as Docker, Kubernetes, and Ansible.
+
+## Extensibility:
+
+Terraform can be extended through plugins and custom providers. You can develop your own providers or use third-party plugins to integrate with additional services or platforms, expanding Terraform's capabilities beyond its core functionality.
+
+## Terraform Cloud:
+
+HashiCorp offers a managed service called Terraform Cloud. It provides additional features like remote state management, collaboration, and a web-based user interface for managing Terraform runs. Terraform Cloud simplifies the adoption and management of Terraform in teams and organizations.
+
+## Open Source and Enterprise Versions:
+
+Terraform is available as an open-source tool with a permissive license. HashiCorp also offers an enterprise version called Terraform Enterprise, which includes advanced features like policy enforcement, private module registries, and enhanced support options for enterprise-grade deployments.
+
+
+
+
+
+
+
+
+
+
+
