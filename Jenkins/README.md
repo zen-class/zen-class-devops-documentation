@@ -125,6 +125,89 @@ Use milestone to accidently deploying old version over a new version
 
 
 
+# 1. Jenkins:
+
++ Jenkins is a popular automation server used for continuous integration and continuous delivery (CI/CD) processes.
+
++ It is written in Java and provides a web-based interface for managing automation tasks.
+
++ Jenkins is extensible with a vast range of plugins that support integration with different tools and technologies.
+
+# 2. Installation and Setup:
+
++ Jenkins can be installed on various operating systems, including Windows, Linux, and macOS.
+
++ The installation involves downloading the Jenkins WAR (Web Application Archive) file and running it using Java.
+
++ After installation, Jenkins can be accessed through a web browser by navigating to the specified URL.
+
+# 3. Jobs and Builds:
+
++ Jobs are the basic units of work in Jenkins. Each job represents a specific task or process to be automated.
+
++ Jobs can be created through the Jenkins web interface or by defining job configurations using XML files.
+
++ A build refers to the execution of a job. Jenkins schedules and manages builds based on user-defined triggers or events.
+
+# 4. Build Triggers:
+
++ Jenkins provides various triggers to initiate builds, such as periodic scheduling, source code changes, or manual intervention.
+
++ Polling triggers enable Jenkins to check for changes in source code repositories at regular intervals.
+
++ Webhooks can be used to receive notifications from version control systems and trigger builds instantly.
+
+# 5. Source Code Management:
+
++ Jenkins integrates with various version control systems (VCS) like Git, Subversion (SVN), Mercurial, etc.
+
++ Developers can configure Jenkins jobs to pull source code from repositories and perform builds or tests.
+
+# 6. Build Steps:
+
++ Build steps define the actions to be executed within a job. These can include compiling source code, running tests, packaging artifacts, etc.
+
++ Jenkins provides a wide range of plugins to support different build steps and tools.
+
+# 7. Plugins and Integration:
+
++ Jenkins has an extensive plugin ecosystem that allows integration with external tools and technologies.
+
++ Plugins extend Jenkins' functionality, enabling features like notifications, reporting, deployment to cloud platforms, and more.
+
++ Plugins can be installed and managed through the Jenkins web interface.
+
+# 8. Build Notifications:
+
++ Jenkins can send notifications about build results via email, instant messaging, or other communication channels.
+
++ Developers and teams can receive alerts and status updates on the progress of builds and deployments.
+
+# 9. Distributed Builds:
+
++ Jenkins supports distributed builds across multiple machines, allowing parallel execution of jobs.
+
++ Slave nodes (agents) can be added to the Jenkins infrastructure to distribute the workload and improve performanc.
+
+# 10. Security and Authentication:
+
++ Jenkins provides built-in security features to control access and permissions.
+
++ User authentication can be managed through Jenkins' own user database or by integrating with external authentication providers like LDAP or Active Directory.
+
+# 11. Pipelines:
+
++ Jenkins supports defining pipelines as code using the Jenkinsfile, which follows the Groovy syntax.
+
++ Pipelines enable the creation of complex, scripted workflows that can include build, test, and deployment stages.
+
++ Pipeline as Code promotes version control and enables teams to manage and share pipeline definitions efficiently.
+
+# 12. Monitoring and Logs:
+
++ Jenkins provides logs and monitoring capabilities to track the execution of jobs and diagnose issues.
+
++ Logs can be accessed through the Jenkins web interface, and various plugins help visualize build and system metrics."
 
 
 
