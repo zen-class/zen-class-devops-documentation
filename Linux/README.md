@@ -514,3 +514,102 @@ If the scheduler sends a stop signal to a process, the process goes into a stopp
 --------------------------------------------------------------------------
 
 When a process has completed its execution, but is waiting to retrieve its exit state, the process is said to be in a zombie state, designated by Z. Once it crosses the zombie state or retrieves its exit status, the process dies or ceases to exist.
+
+
+
+# 1.Linux:
+
++ Linux is an open-source operating system based on the Unix family of operating systems.
+
++ Linus Torvalds developed the Linux kernel and released it in 1991.
+
++ Linux is known for its stability, security, and flexibility.
+
++ It is widely used in servers, embedded systems, and as a desktop operating system.
+
+# 2. Linux Distributions:
+
++ Linux distributions are variations of the Linux operating system that include the Linux kernel, software packages, and a package management system.
+
++ Popular Linux distributions include Ubuntu, Debian, Fedora, CentOS, and Arch Linux.
+
++ Each distribution may have its own package management system (e.g., apt, yum, pacman) and software repositories.
+
+# 3. Terminal and Shell:
+
++ Linux provides a command-line interface (CLI) where users interact with the system using a terminal emulator.
+
++ The shell is the program that interprets user commands and executes them.
+
++ Common Linux shells are Bash (Bourne Again Shell), Zsh, and Fish.
+
+# 4. File System Hierarchy:
+
++ Linux follows a hierarchical file system structure.
+
++ The root directory is denoted by a forward slash (/) and contains all other directories and files.
+
++ Common directories include /bin (user binaries), /etc (configuration files), /home (user home directories), /var (variable files), and /usr (user programs).
+
+# 5. Package Management:
+
++ Package managers simplify software installation and management.
+
++ Debian-based distributions use apt-get or apt as package managers, while Red Hat-based distributions use yum or dnf.
+
++ Package managers handle dependencies, resolve conflicts, and provide easy ways to install, update, and remove software packages.
+
+# 6. User and Permissions:
+
++ Linux is a multi-user operating system, and each user has a unique username and user ID (UID).
+
++ Users can be assigned to groups, and each group has a group ID (GID).
+
++ File permissions define access levels for users, groups, and others, represented by read (r), write (w), and execute (x) permissions.
+
+# 7. Processes and Services:
+
++ A process is an executing instance of a program.
+
++ Processes can be managed using commands like ps (process status), top (task manager), and kill (terminate a process).
+
++ Services are background processes that run continuously, providing specific functionality.
+
++ Systemd is a common service management tool in many Linux distributions.
+
+# 8. Networking:
+
++ Linux provides robust networking capabilities.
+
++ The ifconfig command is used to configure network interfaces, while ip command is used for more advanced networking tasks.
+
++ Network services like DNS, DHCP, and routing can be configured using corresponding configuration files.
+
+# 9. File Permissions:
+
++  Linux file permissions consist of read (r), write (w), and execute (x) permissions for the owner, group, and others.
+
++ Permissions can be modified using the chmod command.
+
++ The chown command changes file ownership, and chgrp changes the group ownership.
+
+# 10. Shell Scripting:
+
++ Shell scripting allows automating tasks and writing custom scripts.
+
++ Bash is a popular scripting language on Linux.
+
++ Scripts can be created with a text editor, given execute permissions, and executed directly or through the shell.
+
+# 11. File Compression and Archives:
+
++ Linux supports various compression and archiving formats like gzip, bzip2, tar, and zip.
+
++ The tar command is commonly used to create and extract tarball archives, often combined with compression tools.
+
+# 12. System Monitoring and Logs:
+
++ Linux provides various tools to monitor system performance
+
+
+
