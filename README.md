@@ -20,18 +20,18 @@
   </tr>
    <tr>
     <td>Linux</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/Linux">Linux</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/001%20-%20Linux">Linux</a></td>
   </tr>
   <tr>
     <td>Bash Scripting</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/BashScripting">BashScripting</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/002%20-%20BashScripting">BashScripting</a></td>
    </tr>
    <tr>
     <td>Networking</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/projects">Networking</a></td></tr>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/004%20-%20Networking">Networking</a></td></tr>
     <tr>
     <td>GIT</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/git">GIT</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/003%20-%20Git">GIT</a></td>
    
   </tr>
    <tr>
