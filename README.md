@@ -36,18 +36,18 @@
   </tr>
    <tr>
     <td>Docker</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/Docker">Docker</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/005%20-%20Docker">Docker</a></td>
    
   </tr>
    <tr>
     <td>Jenkins</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/Jenkins">Jenkins</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/009%20-%20Jenkins">Jenkins</a></td>
    
   </tr>
    </tr>
    <tr>
     <td>AWS-Services</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/AWS">AWS-Services</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/010%20-%20AWS">AWS-Services</a></td>
    
   </tr>
   <tr>
