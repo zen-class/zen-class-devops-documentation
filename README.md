@@ -54,6 +54,10 @@
     <td>Kubernetes</td>
     <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/Kubernetes">Kubernetes</a></td>
    
-  </tr>  </table>
+  </tr>  <tr>
+    <td>Projects</td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/projects">Projects</a></td>
+   
+  </tr>    </table>
 </body>
 </html>
