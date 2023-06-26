@@ -52,17 +52,18 @@
   </tr>
   <tr>
     <td>Terraform</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/Terraform">Terraform</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/008%20-%20Terraform">Terraform</a></td>
    
   </tr> 
   <tr>
     <td>Kubernetes</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/Kubernetes">Kubernetes</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/006%20-%20kubernetes">Kubernetes</a></td>
    
   </tr>  <tr>
     <td>Projects & UseCases</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/projects">Projects</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/011%20-%20project">Projects</a></td>
    
-  </tr>    </table>
+  </tr>    
+</table>
 </body>
 </html>
