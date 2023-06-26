@@ -14,24 +14,22 @@
     <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/DevOps_Introduction.md">DevOps</a></td>
   </tr>
     
-    <tr>
+  <tr>
     <td>Introduction to AWS</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/AWS-Introduction.md">AWS</a></td>
-    </tr> 
-    <tr>
-    <td>Linux</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/BashScripting">Linux</a></td>
-    </tr>
-
-  <tr>  
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/AWS_Introduction.md">AWS</a></td>
+  </tr>
    <tr>
+    <td>Linux</td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/Linux">Linix</a></td>
+  </tr>
+  <tr>
     <td>Bash Scripting</td>
     <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/BashScripting">BashScripting</a></td>
-   
-  </tr>
-  </tr>  <tr>
+   </tr>
+   <tr>
     <td>Networking</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/projects">Networking</a></td>   <tr>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/projects">Networking</a></td></tr>
+    <tr>
     <td>GIT</td>
     <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/git">GIT</a></td>
    
