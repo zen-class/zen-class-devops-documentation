@@ -98,7 +98,7 @@ ls /var
 - Symbolic links
 - Local domain sockets/named pipes)
 
-Find more info about files in the directory using below command
+### Find more info about files in the directory using below command
 ```
 ls -l
 ```
@@ -130,19 +130,19 @@ systemd is monitoring init system used to manage services
 systemctl <command> <unitname>
 ```
   
-  - ## enable
+  - ### enable
   Make sure this unit always starts at boot.
-  - ## disable
+  - ### disable
   Opposite of enable
-  - ## start
+  - ### start
   Start this unit now(will not automatically starts at next boot)
-  - ## stop
+  - ### stop
   Stop a running unit(will not prevent starting at boot, if enabled)
-  - ## reload
+  - ### reload
   Reread the program configuration files
-  - ## restart
+  - ### restart
   Kill the process and start again, rereading the configuration files
-  - ## status
+  - ### status
   Check status of unit, show last few lines of log output
   
   ### Log mangaement commands
@@ -153,126 +153,125 @@ systemctl <command> <unitname>
 
 ## Linux Commands
 
-Find current working directory:
+### Find current working directory:
 ```
 pwd
 ```
-Find currently logged-in user:
+### Find currently logged-in user:
 ```
 whoami
 ```
-List things in directory:
+### List things in directory:
 ```
 ls
 ```
-Change directory:
+### Change directory:
 ```
 cd /Dir_name
 ```
-Clear the terminal:
+### Clear the terminal:
 ```
 clear
 ```
-List hidden files:
+### List hidden files:
 ```
 ls -a
 ```
-Create new file in terminal:
+### Create new file in terminal:
 ```
 touch file.txt
 ```
-Read file content:
+### Read file content:
 ```
 cat file.txt
 ```
-Create Directory:
+### Create Directory:
 ```
 mkdir directory_name
 ```
-Create nested Directory using -p flag:
+### Create nested Directory using -p flag:
 ```
 mkdir -p dir3/dir2/dir1/directory_name
 ```
-Move File:
+### Move File:
 ```
 mv file_name directory
 mv file.txt Downloads/files
 ```
-Remove File:
+### Remove File:
 ```
 rm file_name
 ```
-Remove Directory:
+### Remove Directory:
 ```
 rm directory_name
 ```
-To find use of specific command:
+### To find use of specific command:
 ```
 man command   E.g. man rm
 ```
-Remove directory and their contents recursively:
+### Remove directory and their contents recursively:
 ```
 rm -r downloads/
 ```
-Copy file:
+### Copy file:
 ```
 cp source destination
 ```
-Switch to root user:
+### Switch to root user:
 ```
 sudo -i
 ```
-use w/who to find uptime, how many users has logged in:
+### use w/who to find uptime, how many users has logged in:
 ```
 w
 who
 ```
-To find and monitor running processes:
+### To find and monitor running processes:
 ```
 top
 ```
-Network- To find out what ports are open and listening:
+### Network- To find out what ports are open and listening:
 ```
 sudo netstat -tupln
 ```
-Create new file using VI editor:
+### Create new file using VI editor:
 ```
 vi test.file
 ```
-For inserting data press i and write content:
+### For inserting data press i and write content:
 ```
 i
 ```
-To save and quit from vi press esc and then :
+### To save and quit from vi press esc and then :
 ```
 :wq
 ```
-Print "Hello World" message in terminal :
+### Print "Hello World" message in terminal :
 ```
 echo "Hello World"
 ```
-Print std Output to some file :
+### Print std Output to some file :
 ```
 echo "Hello World" 1> somefile.txt
 ```
-Print std Output to some file but this override the existing contents :
+### Print std Output to some file but this override the existing contents :
 ```
 echo "Hello World" > somefile.txt
 ```
-Redirecting standart output and append data in existing file use ">>" :
+### Redirecting standart output and append data in existing file use ">>" :
 ```
 echo "Hello World" >> somefile.txt
 ```
-To Redirect standard error use 2> :
+### To Redirect standard error use 2> :
 ```
 cat nonExistingFile.txt 2> somefile.txt
 ```
-Redirect input using <, Here we are mailing error.txt to the user palak:
+### Redirect input using <, Here we are mailing error.txt to the user palak:
 ```
 mail -s This is errror file" palak < error.txt
 ```
-Use 
-for searching patterns in files
+### Use for searching patterns in files
 ```
 cat somefile.txt | grep Thanks
 ```
@@ -280,19 +279,19 @@ Cut file using delimiter and find fields
 ```
 cat somefile.txt | cut -d: f1
 ```
-Sort the file contents in alphabatical orders, ignore the leading whitespace using b case-insesitive f
+### Sort the file contents in alphabatical orders, ignore the leading whitespace using b case-insesitive f
 ```
 cat somefile.txt | sort -bf
 ```
-Search somethig in directory
+### Search somethig in directory
 ```
 grep search_term ./*
 ```
-Install software
+### Install software
 ```
 sudo apt-get install software-name
 ```
-Used for searching apt packages on a Ubuntu or Debian based systems
+### Used for searching apt packages on a Ubuntu or Debian based systems
 ```
 sudo apt-cache search software-name
 ```
@@ -312,38 +311,38 @@ Show last 10 lines of the file
 ```
 tail somefile.txt
 ```
-Find user details and user password
+### Find user details and user password
 ```
 sudo -i
 tail /etc/passwd
 tail /etc/shadow
 ```
-Add user and create set home directory
+### Add user and create set home directory
 ```
 useradd -m -d /home/user1 -s /bin/bash user1
 cat /etc/shadow  user1:!:19275:0:99999:7:::
 ```
 User can't login as password is not set (you can see the ! mark ) 
 
-Find which kernel version a system is currently running
+### Find which kernel version a system is currently running
 ```
 uname -a
 ```
-Find system's current IP address
+### Find system's current IP address
 ```
 ifconfig
 ip addr show
 ```
-Check for free disk space
+### Check for free disk space
 ```
 df -ah
 ```
-Check for openports on linux machine
+### Check for openports on linux machine
 ```
 netstat
 netstat -tulpn
 ```
-Check CPU usage for a process 
+### Check CPU usage for a process 
 ```
 ps aux | grep nginx
 top
@@ -372,7 +371,7 @@ chmod 700 /opt/directory
 
 The crontab is a list of commands that you want to run on a regular schedule, and also the name of the command used to manage that list.
 
-# Crontab
+## Crontab
 
 The crontab is a list of commands that you want to run on a regular schedule, and also the name of the command used to manage that list.
 
@@ -517,7 +516,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 
 
-# 1.Linux:
+### 1.Linux:
 
 + Linux is an open-source operating system based on the Unix family of operating systems.
 
@@ -527,7 +526,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + It is widely used in servers, embedded systems, and as a desktop operating system.
 
-# 2. Linux Distributions:
+### 2. Linux Distributions:
 
 + Linux distributions are variations of the Linux operating system that include the Linux kernel, software packages, and a package management system.
 
@@ -535,7 +534,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + Each distribution may have its own package management system (e.g., apt, yum, pacman) and software repositories.
 
-# 3. Terminal and Shell:
+### 3. Terminal and Shell:
 
 + Linux provides a command-line interface (CLI) where users interact with the system using a terminal emulator.
 
@@ -543,7 +542,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + Common Linux shells are Bash (Bourne Again Shell), Zsh, and Fish.
 
-# 4. File System Hierarchy:
+### 4. File System Hierarchy:
 
 + Linux follows a hierarchical file system structure.
 
@@ -551,7 +550,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + Common directories include /bin (user binaries), /etc (configuration files), /home (user home directories), /var (variable files), and /usr (user programs).
 
-# 5. Package Management:
+### 5. Package Management:
 
 + Package managers simplify software installation and management.
 
@@ -559,7 +558,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + Package managers handle dependencies, resolve conflicts, and provide easy ways to install, update, and remove software packages.
 
-# 6. User and Permissions:
+### 6. User and Permissions:
 
 + Linux is a multi-user operating system, and each user has a unique username and user ID (UID).
 
@@ -567,7 +566,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + File permissions define access levels for users, groups, and others, represented by read (r), write (w), and execute (x) permissions.
 
-# 7. Processes and Services:
+### 7. Processes and Services:
 
 + A process is an executing instance of a program.
 
@@ -577,7 +576,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + Systemd is a common service management tool in many Linux distributions.
 
-# 8. Networking:
+### 8. Networking:
 
 + Linux provides robust networking capabilities.
 
@@ -585,7 +584,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + Network services like DNS, DHCP, and routing can be configured using corresponding configuration files.
 
-# 9. File Permissions:
+### 9. File Permissions:
 
 +  Linux file permissions consist of read (r), write (w), and execute (x) permissions for the owner, group, and others.
 
@@ -593,7 +592,7 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + The chown command changes file ownership, and chgrp changes the group ownership.
 
-# 10. Shell Scripting:
+### 10. Shell Scripting:
 
 + Shell scripting allows automating tasks and writing custom scripts.
 
@@ -601,13 +600,13 @@ When a process has completed its execution, but is waiting to retrieve its exit 
 
 + Scripts can be created with a text editor, given execute permissions, and executed directly or through the shell.
 
-# 11. File Compression and Archives:
+### 11. File Compression and Archives:
 
 + Linux supports various compression and archiving formats like gzip, bzip2, tar, and zip.
 
 + The tar command is commonly used to create and extract tarball archives, often combined with compression tools.
 
-# 12. System Monitoring and Logs:
+### 12. System Monitoring and Logs:
 
 + Linux provides various tools to monitor system performance
 
