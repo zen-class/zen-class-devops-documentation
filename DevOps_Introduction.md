@@ -25,15 +25,16 @@ DevOps encourages continuous monitoring of software applications and infrastruct
 Various tools and technologies support DevOps practices, including Git for version control, Jenkins and Travis CI for continuous integration, Ansible, Chef, and Puppet for configuration management, and Docker and Kubernetes for containerization.
 
 ### List of Top DevOps Tools
-Git
-Docker
-Selenium
-Jenkins
-Ansible
-Maven
-Kubernetes
-Terraform
-Prometheus and Grafana
+<ol>
+  <li>GIT</li>
+  <li>Docker</li>
+  <li>Kubernetes</li>
+  <li>Terraform</li>
+   <li>Jenkins</li>
+  <li>Ansible</li>
+  <li>Maven</li>
+  <li>Prometheus and Grafana</li>
+</ol>
 
 
 ### Agile Principles with DevOps: 
