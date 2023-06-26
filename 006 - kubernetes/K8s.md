@@ -36,7 +36,8 @@ It include Oracle VirtualBox, VMware Workstation, and Parallels Desktop for Mac
 
 <img src="https://github.com/Gitscooby/Images/blob/main/k8%20image%205.png">
 
-<img src"https://github.com/Gitscooby/Images/blob/main/k8%20image%206.png">
+
+
 
 
 ## What is monolithic architecture
