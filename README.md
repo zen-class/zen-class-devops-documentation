@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td>Introduction to DevOps</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/DevOps_Introduction.md">DevOps</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/DevOps-Introduction.md">DevOps</a></td>
   </tr>
     
   <tr>
