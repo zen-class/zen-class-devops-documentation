@@ -16,11 +16,11 @@
     
   <tr>
     <td>Introduction to AWS</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/AWS_Introduction.md">AWS</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/AWS-Introduction.md">AWS</a></td>
   </tr>
    <tr>
     <td>Linux</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/Linux">Linix</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/Linux">Linux</a></td>
   </tr>
   <tr>
     <td>Bash Scripting</td>
