@@ -1,32 +1,38 @@
 Sample Scripts
 
-Hello World script:
+1. Hello World script:
+
 #!/bin/bash
 echo "Hello World"
 
-Create a directory and file:
+2. Create a directory and file:
+
 #!/bin/bash
 mkdir mydirectory
 cd mydirectory
 touch myfile.txt
 echo "Hello World" > myfile.txt
 
-Display current date and time:
+3. Display current date and time:
+
 #!/bin/bash
 echo "Current date and time: $(date)"
 
-Rename files in a directory:
+4. Rename files in a directory:
+
 #!/bin/bash
 for file in *.txt; do
     mv "$file" "${file%.txt}.doc"
 done
 
-Find and replace text in a file:
+5. Find and replace text in a file:
+
 #!/bin/bash
 sed -i 's/oldtext/newtext/g' myfile.txt
 
 
-Prompt user for input and perform calculation:
+6. Prompt user for input and perform calculation:
+
 #!/bin/bash
 echo "Enter a number:"
 read num1
@@ -35,7 +41,8 @@ read num2
 result=$((num1 + num2))
 echo "The result is: $result"
 
-Display system information:
+7. Display system information:
+
 #!/bin/bash
 echo "System information:"
 echo "Kernel version: $(uname -r)"
@@ -44,8 +51,8 @@ echo "CPU architecture: $(uname -m)"
 echo "Total memory: $(free -m | awk '/Mem/{print $2}') MB"
 echo "Disk usage: $(df -h / | awk '/\//{print $5}') used"
 
+8. Count the number of lines in a file:
 
-Count the number of lines in a file:
 #!/bin/bash
 echo "Enter the filename:"
 read filename
@@ -57,7 +64,8 @@ else
 fi
 
 
-Copy files from one directory to another:
+9. Copy files from one directory to another:
+
 #!/bin/bash
 echo "Enter the source directory:"
 read source
@@ -70,7 +78,8 @@ else
     echo "Error: source directory not found."
 fi
 
-Check if a website is up or down:
+10. Check if a website is up or down:
+
 #!/bin/bash
 echo "Enter the website URL:"
 read url
@@ -80,7 +89,8 @@ else
     echo "Website $url is down."
 fi
 
-Convert all files in a directory to lowercase:
+11. Convert all files in a directory to lowercase:
+
 #!/bin/bash
 for file in *; do
     mv "$file" "${file,,}"
