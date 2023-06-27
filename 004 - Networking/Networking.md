@@ -32,7 +32,7 @@ Computer networking is essential for businesses, organizations, and individuals 
 # OSI Model
 <p>The Open Systems Interconnection (OSI) model is a set of standards that defines how computers communicate over a network. In the OSI model, data flow gets broken down into seven layers that build upon each other. Each layer uses data from the layer before it and serves a specific purpose in the broader network communication.</p>
 
-The OSI model works from the bottom up, beginning from layer 1 (Physical) and ending with the top layer 7 (Application). The top layer is the most direct point of user interaction with the OSI model—if you’re reading this article on a device, you’re working on the 7th layer at this very moment.
+The OSI model works from the bottom up, beginning from layer 1 (Physical) and ending with the top layer 7 (Application). The top layer is the most direct point of user interaction with the OSI model.
 
 ![shutterstock_508948102-1](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/23683353-27c0-4896-ae01-d3e76ce8e3df)
 ### Layer 1: Physical
