@@ -1,6 +1,6 @@
 # Introduction to Virtualization and Cloud Computing
-<img src="https://raw.githubusercontent.com/Gitscooby/Images/main/virtualization-in-Cloud-Computing-1.webp">
 
+![Cloud_computing](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/4b5dd3a2-520c-4cdf-87c2-1fdf4d7abe29)
 
 
 
@@ -28,39 +28,28 @@ processing, distributing or allowing access to large amounts of data.
 · What is Cloud? There is now Cloud, it is someone else's computer accessible over the Internet! Virtual Machine running on a cloud server is the most widely used way of hosting any applications online.
 
 ## · Cloud Computing:
-On demand delivery of IT resources via the Interment, Instead of setting up Physical DCs, we can access Compute, Network, Storage on demand basis from Cloud providers. Use cases: Data backup, DRS, Email, Virtual Desktop, Software Development, Testing, Web Apps, Online Gaming, IoT, etc. Worldwide availability.
-
-<img src="https://github.com/Gitscooby/Images/blob/main/region%20images.png">
 
 
 
+![cloud-services-isometric-composition-with-big-cloud-computing-infrastructure-elements-connected-with-dashed-lines-vector-illustration_1284-30495 (1)](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/72eb630f-a11d-40b8-814d-19bc90a08d91)
 
+The term cloud refers to a network or the internet. It is a technology that uses remote servers on the internet to store, manage, and access data online rather than local drives. The data can be anything such as files, images, documents, audio, video, and more.
 
+## These are the following operations that we can do using cloud computing:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<ol><li>Developing new applications and services</li>
+ <li>Storage, back up, and recovery of data</li>
+<li> Hosting blogs and websites</li>
+ <li>Delivery of software on demand</li>
+ <li>Analysis of data</li>
+ <li>Streaming videos and audios</li>
+</ol>
 
 
 
 
 ## What is Amazon Web Services (AWS)?
-<img src="https://github.com/Gitscooby/Images/blob/main/Aws%20images.jpg">
-
+![Group-169-3](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/175de7b4-af2c-46ef-8dea-6d8cf3ab915a)
 
 + Applications like YouTube, Gmail, Facebook are software that are hosted on cloud. Those are often called Software as a Services (SaaS).
  Amazon Web Services is a public cloud provider, a gigantic pool of configurable resources (Servers, Storage, Networks, etc.) spanned across multiple Data Centers in the globe where you can deploy your infrastructure/ applications. Hence it is also called Infrastructure as a Services (IaaS).
