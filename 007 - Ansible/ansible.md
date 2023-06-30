@@ -257,11 +257,13 @@ Ansible is an open source tool that you can use to automate your AWS deployments
 
 # Notes
 
+![ansible-architecture](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/c8b6da83-9a57-44e3-80ea-cba2da122f61)
+
+
 + **Automation:** Ansible is designed to automate repetitive tasks, allowing administrators and developers to focus on more important aspects of their work. It provides a declarative approach to automation, where you define the desired state of your systems, and Ansible takes care of bringing them to that state.
 
 + **Agentless Architecture:** Ansible follows an agentless architecture, meaning that it doesn't require any software or agent to be installed on the managed nodes (systems being controlled by Ansible). Instead, it communicates with the nodes over SSH or WinRM (for Windows systems), utilizing the existing SSH or WinRM capabilities.
 
-<img src="https://github.com/Gitscooby/Images/blob/main/ansible-architecture%201.png">
 
 + **YAML-based Language:** Ansible playbooks, which are used to define automation tasks, are written in YAML (YAML Ain't Markup Language). YAML is a human-readable, structured data format that allows easy creation and modification of playbooks.
 
