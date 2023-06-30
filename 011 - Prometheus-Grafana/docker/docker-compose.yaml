@@ -1,0 +1,18 @@
+version: '3'
+services:
+  grafana:
+    image: "grafana/grafana"
+    ports:
+      - "3000:3000"
+    volumes:
+      - "grafana-storage:/var/lib/grafana"
+       
+  prometheus:
+    image: "prom/prometheus"
+    ports:
+      - "9090:9090"
+    volumes:
+      - "${PWD-.}/prometheus:/etc/prometheus"
+
+volumes:
+   grafana-storage:
