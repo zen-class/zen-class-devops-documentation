@@ -27,7 +27,7 @@ Providers supported by Terraform, there are officially 130 providers supported b
 - Google Cloud Platform
 - Kubernetes and so on
 
-
+![terra](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/e54cd625-1b20-4d66-aa0d-072d6fcf6362)
 
 
 ## Install Terraform
