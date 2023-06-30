@@ -2,9 +2,7 @@
 
 <p>Computer networking refers to the practice of connecting multiple computers and devices together to enable communication and the sharing of resources. It involves the design, implementation, and management of hardware and software components that facilitate data transmission and exchange between networked devices.</p>
 
-![WirelessNetwork-5994852003f4020011db5333](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/4d17dee4-bb7e-4b15-b118-5ef953107d19)
-
-
+![WirelessNetwork-5994852003f4020011db5333](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/7aaa296f-4a56-4ee7-9205-2920d567e718)
 
 
 ### Here are some key aspects of computer networking:
