@@ -1,38 +1,42 @@
 # AWS 
 ![download (1)](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/dfd706d3-bcff-49bb-a255-eb8c0f187e92)
 
-# Introduction to Virtualization and Cloud Computing
+In 2006, Amazon Web Services (AWS) began offering IT infrastructure services to businesses as web services—now commonly known as cloud computing. One of the key benefits of cloud computing is the opportunity to replace upfront capital infrastructure expenses with low variable costs that scale with your business. With the cloud, businesses no longer need to plan for and procure servers and other IT infrastructure weeks or months in advance. Instead, they can instantly spin up hundreds or thousands of servers in minutes and deliver results faster.
+
+Today, AWS provides a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousands of businesses in 190 countries around the world.
 
 
-## · What is Internet: 
-A global computer network using standardized 
-communication protocols (e.g. UDP, TCP/IP) providing information and 
-communication facilities.
+
+## What is Internet?
+A global computer network using standardized communication protocols (e.g. UDP, TCP/IP) providing information and communication facilities.
+
+![Internet-image-(2)](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/5c526f76-eb12-4110-8a53-b7704f0803b9)
 
 ## Local Network: Private network in LAN (Local Area Network)
 
-## · Virtualization: 
+##  Virtualization: 
 Run multiple OSs on a host machine (Type 1: BareMetal, Uses Hypervisor OS (e.g. ESXi) and Type 2: Application running on another base OS (e.g. vmware workstation)).
 
 ## Virtual Machine: 
 Software representation of virtual computer as set of files! Easy 
 to move, independent of hardware, Effective utilization of resources. We can do 
 virtual networking between VMs.
+![illustration-of-the-concept-of-Virtualization-7](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/a4694d66-6610-4351-844c-c0dc2ed75824)
 
-## · Data Center:
+##  Data Center:
 Data centers are simply centralized locations where computing and 
 networking equipment is concentrated for the purpose of collecting, storing, 
 processing, distributing or allowing access to large amounts of data.
-## · What is Cloud? 
+##  What is Cloud? 
 There is now Cloud, it is someone else's computer accessible over the Internet! Virtual Machine running on a cloud server is the most widely used way of hosting any applications online.
 
-## · Cloud Computing: 
+##  Cloud Computing: 
 On demand delivery of IT resources via the Interment, Instead of setting up Physical DCs, we can access Compute, Network, Storage on demand basis from Cloud providers. Use cases: Data backup, DRS, Email, Virtual Desktop, Software Development, Testing, Web Apps, Online Gaming, IoT, etc. Worldwide availability
 
 
 
 ## What is Amazon Web Services (AWS)?
-
+![aws-introduction](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/5dd7a5ea-4a4c-432b-a889-d7525cf4103c)
 <ol> 
 <li>Amazon Web Services (AWS) is a comprehensive and widely used cloud computing platform provided by Amazon.</li>
 <li>It offers a broad range of cloud services, including computing power, storage, databases, networking, machine learning, artificial intelligence, analytics, security, and more.</li>
