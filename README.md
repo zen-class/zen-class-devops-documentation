@@ -1,6 +1,5 @@
-# AWS and DevOps Documentation
+## AWS and DevOps Documentation
 
-![7602 1513404277](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/b539c007-c94f-4682-b415-15f2d01d93a2)
 
 &nbsp;
 &nbsp;
@@ -12,7 +11,7 @@
 <body>
 <table>
   <tr>
-    <th>Table Of Content</th>
+    <th> Table Of Content</th>
     <th>Links</th>
   </tr>
   <tr>
