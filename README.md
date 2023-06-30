@@ -1,6 +1,6 @@
 # AWS and DevOps Documentation
 
-![aws-banner](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/777487e4-c3a8-4f01-82a9-9c86e1bba9e0)
+![7602 1513404277](https://github.com/zen-class/zen-class-devops-documentation/assets/36299748/b539c007-c94f-4682-b415-15f2d01d93a2)
 
 &nbsp;
 &nbsp;
@@ -71,7 +71,7 @@
   </tr>  
   <tr>
     <td>Projects & UseCases</td>
-    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/011%20-%20project">Projects</a></td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/012%20-%20Projects%26SampleUseCases">Projects</a></td>
    
   </tr>    
 </table>
