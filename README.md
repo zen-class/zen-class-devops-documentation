@@ -58,8 +58,12 @@
   <tr>
     <td>Kubernetes</td>
     <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/006%20-%20kubernetes">Kubernetes</a></td>
-   
-  </tr>  <tr>
+   </tr> 
+  <tr>
+    <td>Prometheus-and-Grafana</td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/011%20-%20Prometheus-Grafana">Prometheus-Grafana</a></td>
+  </tr>  
+  <tr>
     <td>Projects & UseCases</td>
     <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/011%20-%20project">Projects</a></td>
    
