@@ -30,8 +30,8 @@ Description:1.Create a sample AWS S3 bucket and define an event trigger that cal
 2.Create a Lambda function that automates a predefined task (e.g. resizing images, encrypting files, copying files to another location)
 3.Test the automation by uploading files to the S3 bucket and verifying that the Lambda function is triggered and automates the predefined task.
 
-## 9. Infrastructure as Code with AWS CloudFormation
-Description:  Deploy the CloudFormation stack to create the infrastructure(ec2,security groups,iam roles)
+## 9. Create a multi node kubernetes cluster using AWS EKS
+Description:  Create three worker node in AWS EKS using eksctl and deploy a nginx application in it.
 
 ## 10. Continuous Integration and Deployment with Docker, Jenkins, AWS EKS, and establish monitoring with Prometheus, and Grafana
 
