@@ -18,8 +18,10 @@
     <td>Introduction to DevOps</td>
     <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/DevOps-Introduction.md">DevOps</a></td>
   </tr>
-    
-  <tr>
+    <tr>
+    <td>Introduction to SDLC</td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/SDLC.md">SDLC</a></td>
+  </tr>  <tr>
     <td>Introduction to AWS</td>
     <td><a href="https://github.com/zen-class/zen-class-devops-documentation/blob/main/AWS-Introduction.md">AWS</a></td>
   </tr>
