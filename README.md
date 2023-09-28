@@ -74,7 +74,11 @@
     <td>Projects & UseCases</td>
     <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/012%20-%20Projects%26SampleUseCases">Projects</a></td>
    
-  </tr>    
-</table>
+  </tr> 
+  <tr>
+    <td>AWS-Interview-Questions&Answers</td>
+    <td><a href="https://github.com/zen-class/zen-class-devops-documentation/tree/main/013%20-%20AWS-Interview%20Preparation>AWS-Interview Preparation</a></td>
+   
+  </tr> </table>
 </body>
 </html>
