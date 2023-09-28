@@ -1,6 +1,4 @@
-Certainly! Here are 20 interview questions related to Elastic Load Balancers (ELBs) in AWS, along with detailed answers in Markdown format:
 
-## Elastic Load Balancers (ELBs) Interview Questions
 
 ### 1. What is an Elastic Load Balancer (ELB)?
 An Elastic Load Balancer (ELB) is a managed AWS service that automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, or IP addresses, to ensure high availability and fault tolerance.
