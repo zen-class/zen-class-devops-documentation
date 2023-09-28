@@ -1,6 +1,4 @@
-Certainly! Here are 20 interview questions related to AWS Systems Manager, along with detailed answers in Markdown format:
 
-## AWS Systems Manager Interview Questions
 
 ### 1. What is AWS Systems Manager?
 AWS Systems Manager is a service that provides centralized management for AWS resources, helping you automate tasks, manage configurations, and improve overall operational efficiency.
