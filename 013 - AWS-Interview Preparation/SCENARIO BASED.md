@@ -60,40 +60,40 @@
 
 ### 21. **Scenario:** Your application needs to process real-time streaming data. How could you design a scalable and efficient solution?
 
-**Answer:**I would utilize Amazon Kinesis for ingesting and processing real-time data streams. Kinesis Data Analytics can be used for real-time data processing, and Kinesis Data Firehose for delivery to various AWS services or external destinations.
+**Answer:** I would utilize Amazon Kinesis for ingesting and processing real-time data streams. Kinesis Data Analytics can be used for real-time data processing, and Kinesis Data Firehose for delivery to various AWS services or external destinations.
 
 ### 22. **Scenario:** Your organization is concerned about disaster recovery and data backup. How could you implement a robust backup and recovery strategy?
 
-**Answer:**I would use AWS Backup to automate the backup of critical resources such as Amazon EBS volumes, RDS databases, and AWS DynamoDB tables. Additionally, I'd implement cross-region replication for critical data.
+**Answer:** I would use AWS Backup to automate the backup of critical resources such as Amazon EBS volumes, RDS databases, and AWS DynamoDB tables. Additionally, I'd implement cross-region replication for critical data.
 
 ### 23. **Scenario:** Your application requires high-performance computing capabilities. How could you leverage AWS services to meet this requirement?
 
-**Answer:**I would use Amazon EC2 instances with enhanced networking and placement groups for low-latency communication. Additionally, I might consider leveraging AWS ParallelCluster or AWS Batch for high-performance computing workloads.
+**Answer:** I would use Amazon EC2 instances with enhanced networking and placement groups for low-latency communication. Additionally, I might consider leveraging AWS ParallelCluster or AWS Batch for high-performance computing workloads.
 
 ### 24. **Scenario:** Your organization wants to implement a serverless architecture for a web application. How could you design a serverless backend?
 
-**Answer:**I would use AWS API Gateway for creating RESTful APIs, AWS Lambda for backend logic, and Amazon DynamoDB for a serverless database. Additionally, Amazon S3 and AWS CloudFront can be used for static content delivery.
+**Answer:** I would use AWS API Gateway for creating RESTful APIs, AWS Lambda for backend logic, and Amazon DynamoDB for a serverless database. Additionally, Amazon S3 and AWS CloudFront can be used for static content delivery.
 
 ### 25. **Scenario:** Your team needs to manage secrets and sensitive configuration parameters securely. How could you achieve this?
 
-**Answer:**I would use AWS Secrets Manager to store and rotate sensitive information such as database credentials, API keys, and other application secrets. This ensures secure storage and access control for sensitive data.
+**Answer:** I would use AWS Secrets Manager to store and rotate sensitive information such as database credentials, API keys, and other application secrets. This ensures secure storage and access control for sensitive data.
 
 ### 26. **Scenario:** Your application is composed of multiple microservices written in different programming languages. How could you handle language-specific dependencies?
 
-**Answer:**I would use AWS Lambda Layers to package and manage language-specific dependencies separately from the function code. This allows for efficient reuse of common libraries across different functions.
+**Answer:** I would use AWS Lambda Layers to package and manage language-specific dependencies separately from the function code. This allows for efficient reuse of common libraries across different functions.
 
 ### 27. **Scenario:** Your organization wants to ensure compliance with industry-specific regulations. How could you implement security and compliance controls in AWS?
 
-**Answer:**I would use AWS Config to monitor and enforce compliance rules. AWS CloudTrail would be used for auditing, and AWS Security Hub for centralized security management and compliance reporting.
+**Answer:** I would use AWS Config to monitor and enforce compliance rules. AWS CloudTrail would be used for auditing, and AWS Security Hub for centralized security management and compliance reporting.
 
 ### 28. **Scenario:** Your application requires real-time communication capabilities. How could you implement WebSocket communication in AWS?
 
-**Answer:**I would use Amazon API Gateway with WebSocket APIs for real-time communication. AWS Lambda can handle the WebSocket requests, and Amazon DynamoDB or Amazon ElastiCache can be used for stateful session management.
+**Answer:** I would use Amazon API Gateway with WebSocket APIs for real-time communication. AWS Lambda can handle the WebSocket requests, and Amazon DynamoDB or Amazon ElastiCache can be used for stateful session management.
 
 ### 29. **Scenario:** Your team needs to perform batch processing on large datasets. How could you design a scalable and cost-effective solution?
 
-**Answer:**I would use AWS Glue for ETL (Extract, Transform, Load) jobs and AWS Step Functions for orchestrating the batch processing workflow. This allows for efficient processing of large datasets.
+**Answer:** I would use AWS Glue for ETL (Extract, Transform, Load) jobs and AWS Step Functions for orchestrating the batch processing workflow. This allows for efficient processing of large datasets.
 
 ### 30. **Scenario:** Your application requires geospatial capabilities. How could you implement location-based services using AWS?
 
-**Answer:**I would use Amazon Location Service for geospatial data, which provides APIs for mapping, geocoding, and tracking. This service integrates seamlessly with AWS services for building location-aware applications.
+**Answer:** I would use Amazon Location Service for geospatial data, which provides APIs for mapping, geocoding, and tracking. This service integrates seamlessly with AWS services for building location-aware applications.
