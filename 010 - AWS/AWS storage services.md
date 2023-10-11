@@ -12,6 +12,7 @@
 + Object Storage
 
 **Amazon Simple Storage Service (Amazon S3)** 
+
 **Amazon S3 Storage Classes** 
 + S3 Standard	9 
 + S3 Standard-Infrequent Access (S3 Standard-IA)	
@@ -21,8 +22,11 @@
 + S3 Glacier Deep Archive	
  
 **Amazon EBS vs Amazon S3** 
-**Amazon EBS and Amazon S3**	
+
+**Amazon EBS and Amazon S3**
+
 **Amazon EFS** 
+
 **Amazon Elastic File System (Amazon EFS)**
 
 + File Storage	 
