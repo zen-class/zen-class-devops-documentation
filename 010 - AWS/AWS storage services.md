@@ -30,48 +30,63 @@
 **Amazon Elastic File System (Amazon EFS)**
 
 + File Storage	 
-+ Comparing Amazon EBS and Amazon EFS	14
++ Comparing Amazon EBS and Amazon EFS	
 
-Amazon Relational Database Service (Amazon RDS)	15 
-Relational databases	15 
-Amazon Relational Database Service	15 
-Amazon RDS database engines	16 
-Amazon Aurora	16 
-Amazon DynamoDB	16 
-Nonrelational Databases	16 
-Amazon DynamoDB	17 
-Serverless	17 
-Automatic Scaling	17 
-AMAZON RDS vs AMAZON DYNAMO DB	18 
-Amazon Redshift	19 
-AWS DMS (Data Migration Serves)	19 
-Homogeneous  migrations	19 
-heterogeneous migration	19 
-Additional Database Services	20 
-Amazon DocumentDB	20 
-Amazon Neptune	20 
-Amazon Quantum Ledger Database (Amazon QLDB)	20 
-Amazon Managed Blockchain	20 
-Amazon ElastiCache	20 
-Amazon DynamoDB Accelerator	21 
+**Amazon Relational Database Service (Amazon RDS)**
+
++ Relational databases
+
++ Amazon Relational Database Service
+
+**Amazon RDS database engines**
+
++ Amazon Aurora
+
++ Amazon DynamoDB
+
++ Nonrelational Databases
+
++ Amazon DynamoDB
+
+**Serverless**
+
+**Automatic Scaling** 
+
+**AMAZON RDS vs AMAZON DYNAMO DB**
+
+**Amazon Redshift**
+
+**AWS DMS (Data Migration Serves)**
+
++ Homogeneous  migrations
+
++ heterogeneous migration
+
+**Additional Database Services**
+
++ Amazon DocumentDB
+ 
++ Amazon Neptune
+
++ Amazon Quantum Ledger Database (Amazon QLDB)
+
++ Amazon Managed Blockchain
+
++ Amazon ElastiCache
+
++ Amazon DynamoDB Accelerator	
 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Instance Stores and Amazon Elastic Block Store (Amazon EBS) 
+
+# Instance Stores and Amazon Elastic Block Store (Amazon EBS) 
   
-Instance stores 
+## Instance stores 
+
 Block-level storage volumes behave like physical hard drives. 
+
 An instance store provides temporary block-level storage for an Amazon EC2 instance. An instance store is disk storage that is physically attached to the host computer for an EC2 instance, and therefore has the same lifespan as the instance. When the instance is terminated, you lose any data in the instance store. 
+
+
 An Amazon EC2 instance with an attached instance store is running. 
   
  
