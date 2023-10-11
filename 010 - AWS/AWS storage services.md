@@ -235,9 +235,11 @@ When deciding between Amazon S3 Glacier and Amazon S3 Glacier Deep Archive, cons
  
  
  
-Amazon EBS vs Amazon S3 
-  
-  
+Amazon EBS vs Amazon s3
+
+
+<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/185e8ba5-3d9e-4c8e-ad40-d5aec509c620">
+
   
   
 Amazon EBS and Amazon S3 
