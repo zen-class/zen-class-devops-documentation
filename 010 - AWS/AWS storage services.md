@@ -391,103 +391,95 @@ In a nonrelational database, you create tables. A table is a place where you can
 Nonrelational databases are sometimes referred to as “NoSQL databases” because they use structures other than rows and columns to organize data. One type of structural approach for nonrelational databases is keyvalue pairs. With key-value pairs, data is organized into items (keys), and items have attributes (values). You can think of attributes as being different features of your data. 
 
 In a key-value database, you can add or remove attributes from items in the table at any time. Additionally, not every item in the table has to have the same attributes.  
-Example of data in a nonrelational database: 
 
-Key        	Value 
 
-1 	         Name: John Doe  
+## Amazon DynamoDB 
 
-            Address: 123 Any Street  
-            
-            Favorite drink: Medium latte  
-2 	Name: Mary Major  
-Address: 100 Main Street  
-Birthday: July 5, 1994  
-Amazon DynamoDB 
-Amazon DynamoDB is a key-value database service. It delivers single-digit millisecond performance at any scale. 
-Serverless 
+**Amazon DynamoDB** is a key-value database service. It delivers single-digit millisecond performance at any scale.
+
+
+## Serverless 
+
 •	DynamoDB is serverless, which means that you do not have to provision, patch, or manage servers.  
+
 •	You also do not have to install, maintain, or operate software. 
-Automatic Scaling 
+
+## Automatic Scaling 
+
 •	As the size of your database shrinks or grows, DynamoDB automatically scales to adjust for changes in capacity while maintaining consistent performance.  
+
 •	This makes it a suitable choice for use cases that require high performance while scaling.  
   
  
- 
- 
- 
- 
- 
- 
- 
- 
-AMAZON RDS vs AMAZON DYNAMO DB 
+# AMAZON RDS vs AMAZON DYNAMO DB 
   
+
+<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/e7c9b4d9-dbcd-4756-8135-3efae3ebea04">
+
+
+<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/e5a141f7-dbef-426b-a384-e4e9a31f490c">
+
+
   
-  
-Amazon Redshift 
+## Amazon Redshift 
   
 Amazon Redshift is a data warehousing service that you can use for big data analytics. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data. 
-AWS DMS (Data Migration Serves) 
-Homogeneous  migrations    
+
+# AWS DMS (Data Migration Serves) 
+
+## Homogeneous  migrations
+
 can be from MySQL to Amazon RDS for MySQL, Microsoft SQL Server to Amazon RDS for SQL Server, or even Oracle to Amazon RDS for Oracle. The process is fairly straight forward.  
+
 Since schema structures, data types, and database code is compatible between source and target.  
   
-heterogeneous migration 
+## heterogeneous migration 
+
 The second type of migration occurs when source and target databases are of different types.  
+
 This is called heterogeneous migration and it's a 2-step process.  
+
 Since the schema structures, data types, and database code are different between source and target,  we first need to convert them using the AWS schema conversion tool.  
+
 This will convert the source schema and code to match that of the target database.  The next step is then to use DMS to migrate data from the source database  to the target database. 
  
  
  
- 
- 
- 
- 
-Additional Database Services 
   
-Amazon DocumentDB 
-Amazon DocumentDB is a document database service that supports MongoDB workloads. (MongoDB is a document database program.) 
-Amazon Neptune 
-Amazon Neptune is a graph database service.  
+# Additional Database Services 
+  
+## Amazon DocumentDB
+
+**Amazon DocumentDB** is a document database service that supports MongoDB workloads. (MongoDB is a document database program.) 
+
+## Amazon Neptune 
+
+**Amazon Neptune**  is a graph database service.  
+
 You can use Amazon Neptune to build and run applications that work with highly connected datasets, such as recommendation engines, fraud detection, and knowledge graphs. 
-Amazon Quantum Ledger Database (Amazon QLDB)  
-Amazon Quantum Ledger Database (Amazon QLDB) is a ledger database service.  
+
+## Amazon Quantum Ledger Database (Amazon QLDB)  
+
+**Amazon Quantum Ledger Database (Amazon QLDB)** is a ledger database service.  
+
 You can use Amazon QLDB to review a complete history of all the changes that have been made to your application data. 
-Amazon Managed Blockchain 
-Amazon Managed Blockchain is a service that you can use to create and manage blockchain networks with open-source frameworks.  
-Blockchain is a distributed ledger system that lets multiple parties run transactions and share data without a central authority. 
-Amazon ElastiCache 
-Amazon ElastiCache is a service that adds caching layers on top of your databases to help improve the read times of common requests.  
+
+## Amazon Managed Blockchain 
+
+**Amazon Managed Blockchain**  is a service that you can use to create and manage blockchain networks with open-source frameworks.  
+
+Blockchain is a distributed ledger system that lets multiple parties run transactions and share data without a central authority.
+
+## Amazon ElastiCache 
+
+**Amazon ElastiCache** is a service that adds caching layers on top of your databases to help improve the read times of common requests. 
+
 It supports two types of data stores: Redis and Memcached. 
  
-Amazon DynamoDB Accelerator 
-Amazon DynamoDB Accelerator (DAX) is an in-memory cache for DynamoDB.  
+## Amazon DynamoDB Accelerator 
+
+**Amazon DynamoDB Accelerator (DAX)**  is an in-memory cache for DynamoDB.  
+
 It helps improve response times from single-digit milliseconds to microseconds. 
   
-  
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-THESE NOTES I CREATED FROM THE COURSE: 
-https://www.coursera.org/learn/aws-cloud-practitioner-essentials 
  
