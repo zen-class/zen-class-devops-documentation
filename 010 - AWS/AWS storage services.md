@@ -1,4 +1,4 @@
-
+ 
 <img src="https://github.com/Gitscooby/Images/blob/main/aws%20image%203.jpg">
 
 # AWS STORAGE SERVICES 
@@ -291,42 +291,52 @@ If you were using S3, every time you save the changes, the system would have to 
 <img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/a544f8a1-571b-46f9-aa5e-c738ed60a6db">
 
 
-
-  
-  
-  
-  
-  
     
-Amazon Elastic File System (Amazon EFS) 
+# Amazon Elastic File System (Amazon EFS) 
   
-File Storage 
+## File Storage 
+
 In file storage, multiple clients (such as users, applications, servers, and so on) can access data that is stored in shared file folders. In this approach, a storage server uses block storage with a local file system to organize files. Clients access data through file paths. 
+
+
 Compared to block storage and object storage, file storage is ideal for use cases in which a large number of services and resources need to access the same data at the same time. 
-Amazon Elastic File System (Amazon EFS) is a scalable file system used with AWS Cloud services and onpremises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications.  
-Comparing Amazon EBS and Amazon EFS 
+
+**Amazon Elastic File System (Amazon EFS)** is a scalable file system used with AWS Cloud services and onpremises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications.  
+
+
+# Comparing Amazon EBS and Amazon EFS 
   
-Amazon EBS 
-•	An Amazon EBS volume stores data in a single Availability Zone.  
-•	To attach an Amazon EC2 instance to an EBS volume, both the Amazon EC2 instance and the EBS volume must reside within the same Availability Zone. 
-Amazon EFS 
-•	Amazon EFS is a regional service. It stores data in and across multiple Availability Zones.  
+## Amazon EBS
+
+•	An Amazon EBS volume stores data in a single Availability Zone. 
+
+•	To attach an Amazon EC2 instance to an EBS volume, both the Amazon EC2 instance and the EBS volume must reside within the same Availability Zone.
+
+## Amazon EFS 
+
+•	Amazon EFS is a regional service. It stores data in and across multiple Availability Zones.
+
 •	The duplicate storage enables you to access data concurrently from all the Availability Zones in the Region where a file system is located. Additionally, on-premises servers can access Amazon EFS using AWS Direct Connect. 
   
  
  
- 
- 
-Amazon Relational Database Service (Amazon RDS) 
+# Amazon Relational Database Service (Amazon RDS) 
   
-Relational databases 
+## Relational databases 
+
 In a relational database, data is stored in a way that relates it to other pieces of data.  
+
 An example of a relational database might be the coffee shop’s inventory management system. Each record in the database would include data for a single item, such as product name, size, price, and so on. 
+
 Relational databases use structured query language (SQL) to store and query data. This approach allows data to be stored in an easily understandable, consistent, and scalable way. For example, the coffee shop owners can write a SQL query to identify all the customers whose most frequently purchased drink is a medium latte. 
+
+
 Example of data in a relational database: 
-ID 	Product Name 	Size 	Price 
-1 	Medium roast ground coffee 	12 oz. 	$5.30 
-2 	Dark roast ground coffee 	20 oz. 	$9.27 
+
+ID 	Product Name 	                 Size 	Price 
+1 	Medium roast ground coffee   	12 oz. 	$5.30 
+2 	Dark roast ground coffee 	    20 oz. 	$9.27 
+
   
  
  
