@@ -402,10 +402,7 @@ In a key-value database, you can add or remove attributes from items in the tabl
 •	This makes it a suitable choice for use cases that require high performance while scaling.  
   
  
-# AMAZON RDS vs AMAZON DYNAMO DB 
- 
-
-<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/e7c9b4d9-dbcd-4756-8135-3efae3ebea04">
+# AMAZON RDS vs AMAZON DYNAMO DB
 
 <img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/e5a141f7-dbef-426b-a384-e4e9a31f490c">
 
