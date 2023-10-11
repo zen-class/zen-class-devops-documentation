@@ -90,7 +90,7 @@ An instance store provides temporary block-level storage for an Amazon EC2 insta
 An Amazon EC2 instance with an attached instance store is running. 
 
 
-< img src="https://github.com/Gitscooby/Images/blob/main/image%201.png">
+<img src="https://github.com/Gitscooby/Images/blob/main/image%201.png>
   
  
  
