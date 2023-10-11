@@ -1,5 +1,5 @@
 
-<img src="https://github.com/Gitscooby/Images/blob/main/aws%20image%202.png">
+<img src="https://github.com/Gitscooby/Images/blob/main/aws%20image%203.jpg">
 
 # AWS STORAGE SERVICES 
 
