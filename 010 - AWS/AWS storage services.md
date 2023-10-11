@@ -241,22 +241,34 @@ When deciding between Amazon S3 Glacier and Amazon S3 Glacier Deep Archive, cons
 <img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/1634bb6d-9117-4cdb-8e48-572cadb92ffb">
  
   
-Amazon EBS and Amazon S3 
+## Amazon EBS and Amazon S3 
+
 When you store data in EBS, it's break file into components or blocks 
+
 When you store data in S3, it stores data as a complete discreate object 
   
-Round 1: 
+**Round 1:**
+
 Let's say you're running a photo analysis website where users upload a photo of  themselves and your application finds the animals that look just like them.  
-You have potentially millions of animal pictures that all need to be indexed and possibly  viewed by thousands of people at once.  
+
+You have potentially millions of animal pictures that all need to be indexed and possibly  viewed by thousands of people at once.
+
 This is the perfect use case for S3.  
   
-S3 is already web-enabled.  
-Every object already has a URL that you can control access rights to who can see or manage the image.  
+S3 is already web-enabled.
+
+Every object already has a URL that you can control access rights to who can see or manage the image. 
+
 It's regionally distributed, which means that it has 11 9's of durability.  
+
 No need to worry about backup strategies. S3 is your backup strategy.  Plus the cost savings is substantial overrunning the same storage load on EBS,  with the additional advantage of being server less. No Amazon EC2 instances are needed.  
+
+
   
-Round 2: 
-you have an 80-gigabyte video file that you're making edit corrections on.  
+**Round 2:**
+
+you have an 80-gigabyte video file that you're making edit corrections on.
+
 To know the best storage class here, we need to understand the difference between  object storage and block storage. Object storage treats any file  as a complete discrete object.  
   
 Now, this is great for documents, and images,  and video files that get  uploaded and consumed as entire objects.  
@@ -269,16 +281,17 @@ If you were using S3, every time you save the changes, the system would have to 
   
  
  
- 
- 
- 
- 
- 
- 
-Amazon EFS 
+# Amazon EFS 
   
   
-  
+<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/1b498c2a-2567-482c-b0a6-1799de7ca1c1">
+
+<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/9fb9f95c-f589-43cc-858b-c63b4fe65833">
+
+<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/a544f8a1-571b-46f9-aa5e-c738ed60a6db">
+
+
+
   
   
   
