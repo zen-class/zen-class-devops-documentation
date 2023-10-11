@@ -120,6 +120,7 @@ To create an EBS volume, you define the configuration (such as volume size and t
 
 Because EBS volumes are for data that needs to persist, it’s important to back up the data. You can take incremental backups of EBS volumes by creating Amazon EBS snapshots. 
 
+
 <img src="https://github.com/Gitscooby/Images/blob/main/image%205.jpg">
 
   
