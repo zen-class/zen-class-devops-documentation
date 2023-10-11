@@ -1,0 +1,106 @@
+Elastic Block Storage
+Amazon Elastic Block Store (EBS) is a block-level storage service provided by Amazon Web Services 
+(AWS). It offers durable and scalable block storage volumes that can be attached to EC2 instances to 
+provide persistent storage. Here are some key points about Amazon EBS:
+ Volume Types: EBS provides different volume types to meet various performance and cost 
+requirements:
+ General Purpose SSD (gp2/gp3): Provides a balance of price and performance for a wide 
+range of workloads.
+ Provisioned IOPS SSD (io1/io2): Offers high-performance storage with customizable IOPS 
+(Input/Output Operations Per Second) to meet demanding I/O requirements.
+ Throughput Optimized HDD (st1): Optimized for frequently accessed, throughput-intensive 
+workloads, such as big data, data warehouses, and log processing.
+ Cold HDD (sc1): Designed for less frequently accessed workloads, offering low-cost storage 
+for large volumes of data.
+1. Snapshots: EBS allows you to create point-in-time snapshots of your volumes, which are 
+stored in Amazon S3. These snapshots provide a backup of your data and can be used to 
+create new volumes or restore existing ones.
+2. EBS Volumes and EC2 Instances: EBS volumes are network-attached storage devices that can 
+be attached to EC2 instances. You can attach and detach volumes from instances as needed, 
+and volumes persist independently of the EC2 instance's lifecycle.
+3. Elasticity and Scalability: EBS volumes can be resized dynamically without any disruption to 
+your EC2 instances. You can increase the size or change the volume type of an existing 
+volume to meet your storage needs.
+4. Availability and Durability: EBS volumes are designed to be highly available and durable. They 
+are replicated within an Availability Zone (AZ) to provide protection against component 
+failures, and you can also enable cross-AZ replication for additional resilience.
+5. Encryption: EBS volumes support encryption at rest using AWS Key Management Service 
+(KMS). You can encrypt both new and existing volumes to ensure data security.
+6. EBS-Optimized Instances: Some EC2 instance types are EBS-optimized by default, which 
+means they provide dedicated network capacity for EBS I/O. This helps to deliver consistent 
+and high-performance storage access.
+7. Use Cases: EBS is commonly used for a variety of workloads, including database storage, file 
+systems, container storage, and boot volumes for EC2 instances.
+It's important to note that EBS volumes are tied to a specific Availability Zone. If you need to use the 
+same volume across multiple AZs, you can create an Amazon Elastic File System (EFS) file system, 
+which provides a scalable and shared file storage solution.
+instance storage
+Instance storage, also known as ephemeral storage, refers to the temporary block-level storage that 
+is directly attached to an Amazon EC2 instance. It provides high-performance, low-latency storage 
+that is ideal for certain types of workloads. Here are some key points about instance storage:
+1. Physical Disks: Instance storage is typically comprised of physical disks that are physically 
+attached to the host machine running the EC2 instance. These disks are not networkattached storage like Amazon EBS but are instead directly connected to the instance.
+2. Performance: Instance storage offers excellent performance characteristics, including high 
+IOPS (Input/Output Operations Per Second) and low latency. Since it is directly attached to 
+the instance, there is minimal network overhead, allowing for fast read and write operations.
+3. Temporary Storage: Instance storage is considered ephemeral or temporary storage because 
+its data does not persist if the EC2 instance is stopped, terminated, or experiences an 
+underlying hardware failure. When the instance is stopped or terminated, the data stored on 
+the instance storage is lost.
+4. Instance Store Volumes: Instance storage is presented to EC2 instances as instance store 
+volumes. These volumes can be used as raw block devices or formatted with a file system. 
+The available instance store volumes and their sizes vary depending on the EC2 instance 
+type.
+5. Use Cases: Instance storage is suitable for workloads that require high-performance, 
+temporary storage, such as caching, temporary file storage, batch processing, and highperformance databases. It can be used to store frequently accessed data, intermediate 
+results, or transient data that can be regenerated if lost.
+6. Instance Store Metadata: Each EC2 instance with instance store volumes also has associated 
+instance store metadata. This metadata provides information about the available instance 
+store volumes and their mount points on the instance.
+It's important to note that instance storage is not suitable for storing critical or persistent data. If 
+data durability and persistence are required, it is recommended to use Amazon EBS volumes or other 
+durable storage options provided by AWS.
+Yes, both EBS (Elastic Block Store) and instance storage can be used like root volumes on 
+Amazon EC2 instances. Each storage option has its own characteristics and use cases. Here 
+are some key points:
+ Root Volume: The root volume is the primary storage for EC2 instances, where the operating 
+system and system files are stored. It is commonly configured as an EBS volume, but the 
+choice of storage for the root volume depends on the EC2 instance types.
+ EBS: EBS volumes provide durable and persistent block-level storage. They can be attached to 
+EC2 instances and are suitable for storing data that needs to persist even when the instance 
+is stopped or terminated. EBS volumes can be easily backed up, resized, and have various 
+performance and durability options.
+ Instance Storage: Instance storage, also known as ephemeral storage, is temporary blocklevel storage that is directly attached to the host machine running the EC2 instance. It offers 
+high performance and low latency. However, the data stored on instance storage is lost if the 
+instance is stopped or terminated, or if there is an underlying hardware failure.
+ Use Cases: EBS volumes are commonly used for storing data that requires durability and 
+persistence, such as application data, databases, and file systems. Instance storage is suitable 
+for temporary storage needs, caching, temporary files, and workloads that can tolerate data 
+loss or can regenerate data.
+It's important to choose the appropriate storage option based on your specific requirements for data 
+durability, persistence, performance, and cost.
+EBS Backed EC2 INSTANCES -:
+An "EBS-backed" EC2 instance refers to an Amazon EC2 instance that uses an Amazon EBS (Elastic 
+Block Store) volume as its root volume. In this configuration, the root volume, which contains the 
+operating system and system files, is stored on an EBS volume.
+Here are some key points about EBS-backed EC2 instances:
+1. Root Volume: The root volume is the primary storage for an EC2 instance and typically holds 
+the operating system and boot files. In the case of an EBS-backed instance, the root volume 
+is an EBS volume.
+2. Durability and Persistence: EBS volumes are durable and persist even when the EC2 instance 
+is stopped or terminated. This means that the data on the root volume remains intact, and 
+you can start a new EC2 instance using the same EBS volume.
+3. Snapshot and Backup: EBS-backed instances allow you to create snapshots of the EBS 
+volumes, which provide a point-in-time backup of the data. These snapshots can be used to 
+restore or create new EBS volumes, enabling data recovery and cloning of instances.
+4. Flexible Volume Management: EBS volumes can be easily resized and modified without 
+impacting the running EC2 instance. You can increase the size of the root volume, change its 
+volume type, or attach additional EBS volumes as needed.
+5. Instance Type Compatibility: Most EC2 instance types support EBS-backed instances. When 
+launching an EC2 instance, you can select an Amazon Machine Image (AMI) that is 
+configured to use an EBS volume as the root device.
+6. Performance and Availability: EBS-backed instances offer a reliable and scalable storage 
+solution with configurable performance options. You can choose different EBS volume types 
+based on your application's performance requirements.
+EBS-backed instances are the recommended approach for most use cases, as they provide greater 
+flexibility, durability, and ease of management compared to instance-store-backed instances
