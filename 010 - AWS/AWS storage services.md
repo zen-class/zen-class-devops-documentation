@@ -336,42 +336,70 @@ Relational databases use structured query language (SQL) to store and query data
 Example of data in a relational database: 
 
 ID 	Product Name 	                 Size 	Price 
+
 1 	Medium roast ground coffee   	12 oz. 	$5.30 
+
 2 	Dark roast ground coffee 	    20 oz. 	$9.27 
 
   
  
- 
-  
-Amazon Relational Database Service 
-Amazon Relational Database Service (Amazon RDS) is a service that enables you to run relational databases in the AWS Cloud. 
+# Amazon Relational Database Service 
+
+**Amazon Relational Database Service (Amazon RDS)** is a service that enables you to run relational databases in the AWS Cloud.
+
+
 Amazon RDS is a managed service that automates tasks such as hardware provisioning, database setup, patching, and backups. With these capabilities, you can spend less time completing administrative tasks and more time using data to innovate your applications. You can integrate Amazon RDS with other services to fulfill your business and operational needs, such as using AWS Lambda to query your database from a serverless application. 
+
+
 Amazon RDS provides a number of different security options. Many Amazon RDS database engines offer encryption at rest (protecting data while it is stored) and encryption in transit (protecting data while it is being sent and received). 
+
+
  
-Amazon RDS database engines 
+# Amazon RDS database engines 
+
 Amazon RDS is available on six database engines, which optimize for memory, performance, or input/output (I/O). Supported database engines include: 
+
 •	Amazon Aurora 
+
 •	PostgreSQL 
+
 •	MySQL 
+
 •	MariaDB 
+
 •	Oracle Database 
+
 •	Microsoft SQL Server 
-Amazon Aurora 
+
+# Amazon Aurora 
+
 Amazon Aurora is an enterprise-class relational database. It is compatible with MySQL and PostgreSQL relational databases. It is up to five times faster than standard MySQL databases and up to three times faster than standard PostgreSQL databases. 
+
+
 Amazon Aurora helps to reduce your database costs by reducing unnecessary input/output (I/O) operations, while ensuring that your database resources remain reliable and available.  
+
+
 Consider Amazon Aurora if your workloads require high availability. It replicates six copies of your data across three Availability Zones and continuously backs up your data to Amazon S3. 
+
+
  
-Amazon DynamoDB 
+# Amazon DynamoDB 
   
 Nonrelational Databases 
 In a nonrelational database, you create tables. A table is a place where you can store and query data. 
+
 Nonrelational databases are sometimes referred to as “NoSQL databases” because they use structures other than rows and columns to organize data. One type of structural approach for nonrelational databases is keyvalue pairs. With key-value pairs, data is organized into items (keys), and items have attributes (values). You can think of attributes as being different features of your data. 
+
 In a key-value database, you can add or remove attributes from items in the table at any time. Additionally, not every item in the table has to have the same attributes.  
 Example of data in a nonrelational database: 
-Key 	Value 
-1 	Name: John Doe  
-Address: 123 Any Street  
-Favorite drink: Medium latte  
+
+Key        	Value 
+
+1 	         Name: John Doe  
+
+            Address: 123 Any Street  
+            
+            Favorite drink: Medium latte  
 2 	Name: Mary Major  
 Address: 100 Main Street  
 Birthday: July 5, 1994  
