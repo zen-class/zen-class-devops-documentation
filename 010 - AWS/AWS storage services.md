@@ -232,15 +232,14 @@ When deciding between Amazon S3 Glacier and Amazon S3 Glacier Deep Archive, cons
  
  
  
- 
- 
- 
-Amazon EBS vs Amazon s3
+# Amazon EBS vs Amazon s3
 
 
 <img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/185e8ba5-3d9e-4c8e-ad40-d5aec509c620">
 
-  
+
+<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/1634bb6d-9117-4cdb-8e48-572cadb92ffb">
+ 
   
 Amazon EBS and Amazon S3 
 When you store data in EBS, it's break file into components or blocks 
