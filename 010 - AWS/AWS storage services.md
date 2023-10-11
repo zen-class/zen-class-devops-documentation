@@ -134,11 +134,17 @@ Incremental backups are different from full backups, in which all the data in a 
 <img src="https://github.com/Gitscooby/Images/blob/main/image%204.png">
 
  
-Amazon Simple Storage Service (Amazon S3) 
+# Amazon Simple Storage Service (Amazon S3)
   
-Object Storage 
+**Object Storage**
+
 In object storage, each object consists of data, metadata, and a key. 
+
 The data might be an image, video, text document, or any other type of file. Metadata contains information about what the data is, how it is used, the object size, and so on. An object’s key is its unique identifier. 
+
+
+<img src="https://github.com/Gitscooby/Images/blob/main/images%206.png">
+
   
 Recall that when you modify a file in block storage, only the pieces that are changed are updated. When a file in object storage is modified, the entire object is updated. 
 Amazon Simple Storage Service (Amazon S3) 
