@@ -407,11 +407,10 @@ In a key-value database, you can add or remove attributes from items in the tabl
 
 <img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/e7c9b4d9-dbcd-4756-8135-3efae3ebea04">
 
-
 <img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/e5a141f7-dbef-426b-a384-e4e9a31f490c">
 
 
-  
+
 ## Amazon Redshift 
   
 Amazon Redshift is a data warehousing service that you can use for big data analytics. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data. 
