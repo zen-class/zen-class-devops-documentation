@@ -3,8 +3,8 @@
 **Instance Stores and Amazon Elastic Block Store (Amazon EBS)**
 
 + Instance stores
++ Amazon Elastic Block Storage (Amazon EBS)
   
-+ Amazon Elastic Block Storage (Amazon EBS)	6 
 Amazon EBS Snapshots	7 
 Amazon Simple Storage Service (Amazon S3)	8 
 Object Storage	8 
