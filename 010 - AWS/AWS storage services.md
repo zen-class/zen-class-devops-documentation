@@ -145,8 +145,11 @@ The data might be an image, video, text document, or any other type of file. Met
 
 <img src="https://github.com/Gitscooby/Images/blob/main/images%206.png">
 
+
   
 Recall that when you modify a file in block storage, only the pieces that are changed are updated. When a file in object storage is modified, the entire object is updated.
+
+
 
 # Amazon Simple Storage Service (Amazon S3) 
 
