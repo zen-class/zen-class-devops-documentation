@@ -99,8 +99,10 @@ An Amazon EC2 instance with an attached instance store is running.
 <img src="https://github.com/Gitscooby/Images/blob/main/image%202.png">
 
 
-  
-All data on the attached instance store is deleted. 
+**All data on the attached instance store is deleted.** 
+
+
+<img src="https://github.com/Gitscooby/Images/blob/main/image%203.png">
   
 Amazon Elastic Block Storage (Amazon EBS) 
 Amazon Elastic Block Store (Amazon EBS) is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available. 
