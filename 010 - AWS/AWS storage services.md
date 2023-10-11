@@ -403,7 +403,7 @@ In a key-value database, you can add or remove attributes from items in the tabl
   
  
 # AMAZON RDS vs AMAZON DYNAMO DB 
-  
+ 
 
 <img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/e7c9b4d9-dbcd-4756-8135-3efae3ebea04">
 
