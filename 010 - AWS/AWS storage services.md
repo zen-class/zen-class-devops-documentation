@@ -5,23 +5,29 @@
 + Instance stores
 + Amazon Elastic Block Storage (Amazon EBS)
   
-Amazon EBS Snapshots	7 
-Amazon Simple Storage Service (Amazon S3)	8 
-Object Storage	8 
-Amazon Simple Storage Service (Amazon S3)	8 
-Amazon S3 Storage Classes	9 
-S3 Standard	9 
-S3 Standard-Infrequent Access (S3 Standard-IA)	9 
-S3 One Zone-Infrequent Access (S3 One Zone-IA)	9 
-S3 Intelligent-Tiering	10 
-S3 Glacier	10 
-S3 Glacier Deep Archive	10 
-Amazon EBS vs Amazon S3	11 
-Amazon EBS and Amazon S3	11 
-Amazon EFS	13 
-Amazon Elastic File System (Amazon EFS)	14 
-File Storage	14 
-Comparing Amazon EBS and Amazon EFS	14 
+**Amazon EBS Snapshots**
+
+**Amazon Simple Storage Service (Amazon S3)**
+
++ Object Storage
+
+**Amazon Simple Storage Service (Amazon S3)** 
+**Amazon S3 Storage Classes** 
++ S3 Standard	9 
++ S3 Standard-Infrequent Access (S3 Standard-IA)	
++ S3 One Zone-Infrequent Access (S3 One Zone-IA)	
++ S3 Intelligent-Tiering	
++ S3 Glacier	
++ S3 Glacier Deep Archive	
+ 
+**Amazon EBS vs Amazon S3** 
+**Amazon EBS and Amazon S3**	
+**Amazon EFS** 
+**Amazon Elastic File System (Amazon EFS)**
+
++ File Storage	 
++ Comparing Amazon EBS and Amazon EFS	14
+
 Amazon Relational Database Service (Amazon RDS)	15 
 Relational databases	15 
 Amazon Relational Database Service	15 
