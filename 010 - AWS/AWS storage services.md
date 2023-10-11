@@ -330,16 +330,7 @@ In a relational database, data is stored in a way that relates it to other piece
 An example of a relational database might be the coffee shop’s inventory management system. Each record in the database would include data for a single item, such as product name, size, price, and so on. 
 
 
-Relational databases use structured query language (SQL) to store and query data. This approach allows data to be stored in an easily understandable, consistent, and scalable way. For example, the coffee shop owners can write a SQL query to identify all the customers whose most frequently purchased drink is a medium latte. 
-
-
-Example of data in a relational database: 
-
-ID 	Product Name 	                 Size 	Price 
-
-1 	Medium roast ground coffee   	12 oz. 	$5.30 
-
-2 	Dark roast ground coffee 	    20 oz. 	$9.27 
+Relational databases use structured query language (SQL) to store and query data. This approach allows data to be stored in an easily understandable, consistent, and scalable way. For example, the coffee shop owners can write a SQL query to identify all the customers whose most frequently purchased drink is a medium latte
 
   
  
