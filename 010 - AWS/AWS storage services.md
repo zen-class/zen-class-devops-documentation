@@ -94,7 +94,6 @@ An Amazon EC2 instance with an attached instance store is running.
   
  
  
- 
 **The instance is stopped or terminated.**
 
 <img src="https://github.com/Gitscooby/Images/blob/main/image%202.png">
