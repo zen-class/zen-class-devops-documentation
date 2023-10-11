@@ -146,31 +146,55 @@ The data might be an image, video, text document, or any other type of file. Met
 <img src="https://github.com/Gitscooby/Images/blob/main/images%206.png">
 
   
-Recall that when you modify a file in block storage, only the pieces that are changed are updated. When a file in object storage is modified, the entire object is updated. 
-Amazon Simple Storage Service (Amazon S3) 
-Amazon Simple Storage Service (Amazon S3) is a service that provides object-level storage. Amazon S3 stores data as objects in buckets. 
+Recall that when you modify a file in block storage, only the pieces that are changed are updated. When a file in object storage is modified, the entire object is updated.
+
+# Amazon Simple Storage Service (Amazon S3) 
+
+**Amazon Simple Storage Service (Amazon S3)** is a service that provides object-level storage. Amazon S3 stores data as objects in buckets. 
+
+
 You can upload any type of file to Amazon S3, such as images, videos, text files, and so on. For example, you might use Amazon S3 to store backup files, media files for a website, or archived documents. Amazon S3 offers unlimited storage space. The maximum file size for an object in Amazon S3 is 5 TB. 
+
+
 When you upload a file to Amazon S3, you can set permissions to control visibility and access to it. You can also use the Amazon S3 versioning feature to track changes to your objects over time. 
  
+
  
- 
-Amazon S3 Storage Classes 
+## Amazon S3 Storage Classes 
+
 With Amazon S3, you pay only for what you use. You can choose from a range of storage classes to select a fit for your business and cost needs. When selecting an Amazon S3 storage class, consider these two factors: 
+
 •	How often you plan to retrieve your data 
+
 •	How available you need your data to be 
-S3 Standard 
+
+## S3 Standard 
+
 •	Designed for frequently accessed data 
-•	Stores data in a minimum of three Availability Zones 
+
+•	Stores data in a minimum of three Availability Zones
+
 S3 Standard provides high availability for objects. This makes it a good choice for a wide range of use cases, such as websites, content distribution, and data analytics. S3 Standard has a higher cost than other storage classes intended for infrequently accessed data and archival storage. 
-S3 Standard-Infrequent Access (S3 Standard-IA) 
+
+
+## S3 Standard-Infrequent Access (S3 Standard-IA) 
+
 •	Ideal for infrequently accessed data 
+
 •	Similar to S3 Standard but has a lower storage price and higher retrieval price 
-S3 Standard-IA is ideal for data infrequently accessed but requires high availability when needed. Both S3 Standard and S3 Standard-IA store data in a minimum of three Availability Zones. S3 Standard-IA provides the same level of availability as S3 Standard but with a lower storage price and a higher retrieval price. 
-S3 One Zone-Infrequent Access (S3 One Zone-IA) 
+
+S3 Standard-IA is ideal for data infrequently accessed but requires high availability when needed. Both S3 Standard and S3 Standard-IA store data in a minimum of three Availability Zones. S3 Standard-IA provides the same level of availability as S3 Standard but with a lower storage price and a higher retrieval price.
+
+## S3 One Zone-Infrequent Access (S3 One Zone-IA) 
+
 •	Stores data in a single Availability Zone 
+
 •	Has a lower storage price than S3 Standard-IA 
+
 Compared to S3 Standard and S3 Standard-IA, which store data in a minimum of three Availability Zones, S3 One Zone-IA stores data in a single Availability Zone. This makes it a good storage class to consider if the following conditions apply: 
+
 •	You want to save costs on storage. 
+
 •	You can easily reproduce your data in the event of an Availability Zone failure. 
  
 S3 Intelligent-Tiering 
