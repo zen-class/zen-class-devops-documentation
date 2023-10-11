@@ -110,16 +110,25 @@ An Amazon EC2 instance with an attached instance store is running.
 
 <img src="https://github.com/Gitscooby/Images/blob/main/image%203.png">
   
-Amazon Elastic Block Storage (Amazon EBS) 
-Amazon Elastic Block Store (Amazon EBS) is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available. 
+**Amazon Elastic Block Storage (Amazon EBS)**
+
+**Amazon Elastic Block Store (Amazon EBS)** is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available. 
+
+
 To create an EBS volume, you define the configuration (such as volume size and type) and provision it. After you create an EBS volume, it can attach to an Amazon EC2 instance. 
+
+
 Because EBS volumes are for data that needs to persist, it’s important to back up the data. You can take incremental backups of EBS volumes by creating Amazon EBS snapshots. 
   
-Amazon EBS Snapshots 
+# Amazon EBS Snapshots
+
 An EBS snapshot is an incremental backup. This means that the first backup taken of a volume copies all the data. For subsequent backups, only the blocks of data that have changed since the most recent snapshot are saved.  
+
 Incremental backups are different from full backups, in which all the data in a storage volume copies each time a backup occurs. The full backup includes data that has not changed since the most recent backup. 
   
-  
+
+<img src="https://github.com/Gitscooby/Images/blob/main/image%204.png">
+
  
 Amazon Simple Storage Service (Amazon S3) 
   
