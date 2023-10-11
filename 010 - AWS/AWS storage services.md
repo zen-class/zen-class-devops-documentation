@@ -404,8 +404,8 @@ In a key-value database, you can add or remove attributes from items in the tabl
  
 # AMAZON RDS vs AMAZON DYNAMO DB
 
-<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/e5a141f7-dbef-426b-a384-e4e9a31f490c">
 
+<img src= "https://github.com/zen-class/zen-class-devops-documentation/assets/113815517/e5a141f7-dbef-426b-a384-e4e9a31f490c">
 
 
 ## Amazon Redshift 
