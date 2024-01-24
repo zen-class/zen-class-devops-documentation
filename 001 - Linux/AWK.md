@@ -63,31 +63,63 @@
 
 **9 fields and Records:** AWK divides each line into fields and each line into records. By default, fields are separated by spaces or tabs, and records are lines.
 
+
 **10 Pattern-Action Pairs:** AWK programs consist of pattern-action pairs. If a line matches a pattern, the associated action is executed.
 
 
 ```
 /pattern/ { action }
 ```
-**11 Variables:** AWK has built-in variables like $0 (entire line), $1, $2, ... (individual fields), NF (number of fields), and more.
+**11. Variables:** AWK has built-in variables like $0 (entire line), $1, $2, ... (individual fields), NF (number of fields), and more.
 
-**12 Print Statement:** The print statement is used to display output. It can print variables, strings, and the contents of fields.
+
+**12. Print Statement:** The print statement is used to display output. It can print variables, strings, and the contents of fields.
 
 ```
 { print $1, $2 }
 ```
-**13 User-Defined Variables:** You can define your own variables in AWK using the = operator.
+
+**13. User-Defined Variables:** You can define your own variables in AWK using the = operator.
 
 ```
 myVar = 10
 ```
 
-**14 Built-in Functions:** AWK provides numerous built-in functions for string manipulation, numeric operations, and more. For example, length(), substr(), sprintf(), etc.
+**14. Built-in Functions:** AWK provides numerous built-in functions for string manipulation, numeric operations, and more. For example, length(), substr(), sprintf(), etc.
 
-**15 BEGIN and END Blocks:** The BEGIN block is executed before processing any input, and the END block is executed after processing all input.
+
+**15. BEGIN and END Blocks:** The BEGIN block is executed before processing any input, and the END block is executed after processing all input.
 
 ```
 BEGIN { print "Start processing" }
 { actions }
 END { print "End processing" }
+```
+**16. Regular Expressions:** AWK supports regular expressions for powerful pattern matching.
+
+```
+/pattern/ { action }
+```
+**17. Conditional Statements:** AWK supports if, else if, and else statements for conditional execution of code.
+
+```
+if (condition) { action }
+else { action }
+```
+
+**18. Arrays:** AWK supports one-dimensional arrays. You can use arrays to store and manipulate data.
+
+```
+myArray[1] = "Value"
+```
+
+**19.Command-Line Usage:** You can use AWK directly from the command line, making it useful for one-liners and quick text processing tasks.
+
+```
+awk '/pattern/ { print $1 }' filename
+```
+
+**Input Redirection:** AWK can read input from files or from the standard input.
+```
+awk '{ print $1 }' < input.txt
 ```
