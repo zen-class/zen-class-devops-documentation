@@ -103,25 +103,35 @@ exit [ expression ]
 
 # AWK input/output statements include:
 ```
-close(file [, how]) Close file, pipe or co-process.
-getline Set $0 from next input record.
-getline <file Set $0 from next record of file.
-getline var Set var from next input record.
-getline var <file Set var from next record of file.
-next Stop processing the current input record. The next
+close(file [, how])  Close file, pipe or co-process.
+
+getline  Set $0 from next input record.
+
+getline <file  Set $0 from next record of file.
+
+getline var  Set var from next input record.
+
+getline var <file  Set var from next record of file.
+
+next  Stop processing the current input record. The next
 input record is read and processing starts over 
 with the first pattern in the AWK program. If the 
 end of the input data is reached, the END block(s),
 if any, are executed.
-nextfile Stop processing the current input file. If the end 
+
+nextfile  Stop processing the current input file. If the end 
 of the input data is reached, the END block(s), if 
 any, are executed.
-print Prints the current record. 
-print expr-list Prints expressions.
-print expr-list 
->file 
-Prints expressions on file. 
-printf fmt,  expr-list Format and print.
+
+print  Prints the current record.
+
+print expr-list  Prints expressions.
+
+print  expr-list 
+>file
+Prints expressions on file.
+
+printf fmt,  expr-list  Format and print.
 ```
 NB The printf command lets you specify the output format more closely, using a C-like syntax, for 
 example, you can specify an integer of given width, or a floating point number or a string, etc.
