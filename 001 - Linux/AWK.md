@@ -125,47 +125,67 @@ print  expr-list >file  Prints expressions on file.
 
 printf fmt,  expr-list  Format and print.
 ```
-NB The printf command lets you specify the output format more closely, using a C-like syntax, for 
+- NB The printf command lets you specify the output format more closely, using a C-like syntax, for 
 example, you can specify an integer of given width, or a floating point number or a string, etc.
-AWK numeric functions include:
+
+# AWK numeric functions included
+```
 atan2(y, x) Returns the arctangent of y/x in radians.
+
 cos(expr) Returns the cosine of expr, which is in radians.
+
 exp(expr) The exponential function.
+
 int(expr) Truncates to integer.
+
 log(expr) The natural logarithm function.
+
 Rand() Returns a random number N, between 0 and 1, such that 0 <= N < 1.
+
 sin(expr) Returns the sine of expr, which is in radians.
+
 sqrt(expr) The square root function.
+
 srand([expr]) Uses expr as a new seed for the random number generator. If no expr is 
 provided, the time of day is used.
-AWK string functions include:
+```
+# AWK string functions include:
+```
 gsub(r, s [, t]) For each substring matching the regular expression r in the string t, 
 substitute the string s, and return the number of substitutions. If t is not 
 supplied, use $0.
-index(s, t) Returns the index of the string t in the string s, or 0 if t is not present. 
+
+index(s, t) Returns the index of the string t in the string s, or 0 if t is not present.
+
 length([s]) Returns the length of the string s, or the length of $0 if s is not 
-supplied. 
+supplied.
+
 match(s, r [, a]) Returns the position in s where the regular expression r occurs, or 0 if r 
 is not present.
+
 split(s, a [, r]) Splits the string s into the array a using the regular expression r, and 
 returns the number of fields. If r is omitted, FS is used instead.
-sprintf(fmt, 
-expr-list)
-Prints expr-list according to fmt, and returns the resulting string.
+
+sprintf(fmt, expr-list) Prints expr-list according to fmt, and returns the resulting string.
+
 strtonum(str) Examines str, and returns its numeric value.
+
 sub(r, s [, t]) Just like gsub(), but only the first matching substring is replaced.
-substr(s, i [, n]) Returns the at most n-character substring of s starting at i. If n is 
-omitted, the rest of s is used.
-tolower(str) Returns a copy of the string str, with all the upper-case characters in str 
-translated to their corresponding lower-case counterparts. 
-Non-alphabetic characters are left unchanged.
-toupper(str) Returns a copy of the string str, with all the lower-case characters in str 
-translated to their corresponding upper-case counterparts. 
-Non-alphabetic characters are left unchanged.
-AWK command-line and usage
-You can pass variables into an awk program using the '-v' flag as many times as necessary, e.g.
+
+substr(s, i [, n]) Returns the at most n-character substring of s starting at i. If n is omitted, the rest of s is used.
+
+tolower(str) Returns a copy of the string str, with all the upper-case characters in str translated to their corresponding lower-case counterparts. Non-alphabetic characters are left unchanged.
+
+toupper(str) Returns a copy of the string str, with all the lower-case characters in str translated to their corresponding upper-case counterparts. Non-alphabetic characters are left unchanged.
+```
+# AWK command-line and usage
+
+- You can pass variables into an awk program using the '-v' flag as many times as necessary, e.g.
+```
 awk -v skip=3 '{for (i=1;i<skip;i++) {getline}; print $0}' a_file
-You can also write an awk program using an editor, and then save it as a special scripting file, e.g.
+```
+- You can also write an awk program using an editor, and then save it as a special scripting file, e.g.
+```
 [mijp1@monty Comp_Lab]$ cat awk_strip
 #!/usr/bin/awk -f
 #only print out every 3rd line of input file
@@ -173,6 +193,9 @@ BEGIN {skip=3}
 {for (i=1;i<skip;i++)
  {getline};
 print $0}
+```
 which can then be used as a new additional command 
+```
 [mijp1@monty Comp_Lab]$ chmod u+x awk_strip
 [mijp1@monty Comp_Lab]$ ./awk_strip my_file.dat
+```
