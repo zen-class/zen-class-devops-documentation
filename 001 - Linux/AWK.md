@@ -113,23 +113,15 @@ getline var  Set var from next input record.
 
 getline var <file  Set var from next record of file.
 
-next  Stop processing the current input record. The next
-input record is read and processing starts over 
-with the first pattern in the AWK program. If the 
-end of the input data is reached, the END block(s),
-if any, are executed.
+next  Stop processing the current input record. The next input record is read and processing starts over with the first pattern in the AWK program. If the end of the input data is reached, the END block(s),if any, are executed.
 
-nextfile  Stop processing the current input file. If the end 
-of the input data is reached, the END block(s), if 
-any, are executed.
+nextfile  Stop processing the current input file. If the end of the input data is reached, the END block(s), if any, are executed.
 
 print  Prints the current record.
 
 print expr-list  Prints expressions.
 
-print  expr-list 
->file
-Prints expressions on file.
+print  expr-list >file  Prints expressions on file.
 
 printf fmt,  expr-list  Format and print.
 ```
