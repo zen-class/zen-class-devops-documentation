@@ -64,3 +64,9 @@
 **fields and Records:** AWK divides each line into fields and each line into records. By default, fields are separated by spaces or tabs, and records are lines.
 
 **Pattern-Action Pairs:** AWK programs consist of pattern-action pairs. If a line matches a pattern, the associated action is executed.
+
+
+```
+/pattern/ { action }
+```
+
