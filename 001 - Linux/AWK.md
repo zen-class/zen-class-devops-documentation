@@ -7,7 +7,7 @@ on-line tutorials of varying complexity, and of course, there is always 'man awk
 
 **AWK basics**
 
-An awk program operates on each line of an input file. It can have an optional BEGIN{} section of 
+- An awk program operates on each line of an input file. It can have an optional BEGIN{} section of 
 commands that are done before processing any content of the file, then the main {} section works 
 on each line of the file, and finally there is an optional END{} section of actions that happen after 
 the file reading has finished:
@@ -49,37 +49,48 @@ total 2648
 -rw------- 1 mijp1 mijp1 494666 Oct 21 12:09 uniform_rand_period_4.agr
 -rw------- 1 mijp1 mijp1 376286 Oct 21 12:05 uniform_rand_period.agr
 ```
-I can see the file size is reported as the 5th column of data. So if I wanted to know the total size of all
+- I can see the file size is reported as the 5th column of data. So if I wanted to know the total size of all
 the files in this directory I could do:
+```
 [mijp1@monty RandomNumbers]$ ls -l | awk 'BEGIN {sum=0} {sum=sum+$5} END 
 {print sum}'
 2668269
-Note that 'print sum' prints the value of the variable sum, so if sum=2 then 'print sum' gives the 
+```
+- **Note** that 'print sum' prints the value of the variable sum, so if sum=2 then 'print sum' gives the 
 output '2' whereas 'print $sum' will print '1' as the 2nd field contains the value '1'.
-Hence it would be straightforwards to write an awk command that would calculate the mean and 
+
+- Hence it would be straightforwards to write an awk command that would calculate the mean and 
 standard deviation of a column of numbers – you accumulate 'sum_x' and 'sum_x2' inside the main 
 part, and then use the standard formulae to calculate mean and standard deviation in the END part.
-AWK provides support for loops (both 'for' and 'while') and for branching (using 'if'). So if you 
+
+- AWK provides support for loops (both 'for' and 'while') and for branching (using 'if'). So if you 
 wanted to trim a file and only operate on every 3rd line for instance, you could do this:
+```
 [mijp1@monty RandomNumbers]$ ls -l | awk '{for (i=1;i<3;i++) {getline}; 
 print NR,$0}'
 3 -rw------- 1 mijp1 mijp1 6948 Oct 22 00:17 random_numbers.f90
 6 -rw------- 1 mijp1 mijp1 289936 Oct 21 11:59 uniform_rand_period_1.agr
 9 -rw------- 1 mijp1 mijp1 494666 Oct 21 12:09 uniform_rand_period_4.agr
 10 -rw------- 1 mijp1 mijp1 376286 Oct 21 12:05 uniform_rand_period.agr
-where the 'for' loop uses a 'getline' command to move through the file, and only prints out every 3rd
+```
+- where the 'for' loop uses a 'getline' command to move through the file, and only prints out every 3rd
 line. Note that as the number of lines of the file is 10, which is not divisible by 3, the final command
 finishes early and so the final 'print $0' command prints line 10, which you can see as we also print 
 out the line number using the NR variable.
-AWK Pattern Matching
-AWK is a line-oriented language. The pattern comes first, and then the action. Action statements are
+
+# AWK Pattern Matching
+
+- AWK is a line-oriented language. The pattern comes first, and then the action. Action statements are
 enclosed in { and }. Either the pattern may be missing, or the action may be missing, but, of course, 
 not both. If the pattern is missing, the action is executed for every single record of input. A missing 
 action prints the entire record.
-AWK patterns include regular expressions (uses same syntax as 'grep -E') and combinations using 
+
+- AWK patterns include regular expressions (uses same syntax as 'grep -E') and combinations using 
 the special symbols '&&' means 'logical AND', '||' means 'logical OR', '!' means 'logical NOT'. You 
 can also do relational patterns, groups of patterns, ranges, etc.
-AWK control statements include:
+
+# AWK control statements include:
+```
 if (condition) statement [ else statement ]
 while (condition) statement
 do statement while (condition)
@@ -88,7 +99,10 @@ for (var in array) statement
 break
 continue
 exit [ expression ]
-AWK input/output statements include:
+```
+
+# AWK input/output statements include:
+```
 close(file [, how]) Close file, pipe or co-process.
 getline Set $0 from next input record.
 getline <file Set $0 from next record of file.
@@ -107,9 +121,8 @@ print expr-list Prints expressions.
 print expr-list 
 >file 
 Prints expressions on file. 
-printf fmt, 
-expr-list 
-Format and print.
+printf fmt,  expr-list Format and print.
+```
 NB The printf command lets you specify the output format more closely, using a C-like syntax, for 
 example, you can specify an integer of given width, or a floating point number or a string, etc.
 AWK numeric functions include:
