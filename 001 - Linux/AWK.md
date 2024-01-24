@@ -13,8 +13,8 @@
 
 - AWK gets its name from the initials of its creators: Alfred Aho, Peter Weinberger, and Brian Kernighan.
 
-*Text Processing:* AWK is primarily used for text processing. It reads text line by line and performs actions based on specified patterns and rules.
+#Text Processing: AWK is primarily used for text processing. It reads text line by line and performs actions based on specified patterns and rules.
 
-*Fields and Records:* AWK divides each line into fields and each line into records. By default, fields are separated by spaces or tabs, and records are lines.
+#Fields and Records: AWK divides each line into fields and each line into records. By default, fields are separated by spaces or tabs, and records are lines.
 
-*Pattern-Action Pairs:* AWK programs consist of pattern-action pairs. If a line matches a pattern, the associated action is executed.
+#Pattern-Action Pairs: AWK programs consist of pattern-action pairs. If a line matches a pattern, the associated action is executed.
