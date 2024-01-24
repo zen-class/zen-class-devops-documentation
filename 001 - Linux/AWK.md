@@ -119,7 +119,7 @@ myArray[1] = "Value"
 awk '/pattern/ { print $1 }' filename
 ```
 
-**Input Redirection:** AWK can read input from files or from the standard input.
+**20. Input Redirection:** AWK can read input from files or from the standard input.
 ```
 awk '{ print $1 }' < input.txt
 ```
