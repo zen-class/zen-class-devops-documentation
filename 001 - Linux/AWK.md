@@ -2,8 +2,7 @@
 
 - A text pattern scanning and processing language, created by Aho, Weinberger & Kernighan (hence 
 the name). It can be quite sophisticated so this is NOT a complete guide, but should give you a taste
-of what awk can do. It can be very simple to use, and is strongly recommended. There are many 
-on-line tutorials of varying complexity, and of course, there is always 'man awk'.
+of what awk can do. It can be very simple to use, and is strongly recommended, there is always 'man awk'.
 
 **AWK basics**
 
